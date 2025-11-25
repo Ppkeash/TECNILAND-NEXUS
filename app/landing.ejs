@@ -14,13 +14,21 @@
 
     <div id="user_content">
     <span id="user_text" style="display: block; margin-right: 60px;"><%- lang('landing.usernamePlaceholder') %></span>
-    <span id="offline_mode_indicator" style="display: none; font-size: 0.7em; color: #888; display: block; margin-top: 4px;">
-        OFFLINE
-        <select id="offlineSelect" style="display:none; margin-left:8px; font-size:0.9em; background:#222; color:#fff; border-radius:3px; border:none; padding:2px 6px; ">
-            <!-- Las cuentas se llenarán aquí -->
-        </select>
-        <button id="offlineLogoutButton" style="display: block; padding: 3px 10px; font-size: 0.7em; cursor: pointer; background: #ff4444; border: none; color: white; border-radius: 3px; margin-top: 4px;">Logout</button>
-    </span>
+        <!-- Botón Login Offline -->
+        <button id="offlineLoginButton" class="settingsAuthAccountButton" style="margin-top: 10px;">
+    <div>Entrar en Modo Offline</div>
+        </button>
+
+        <!-- Botón Logout Offline (oculto por defecto) -->
+        <button id="offlineLogoutButton" class="settingsAuthAccountButton" style="margin-top: 10px; display: none; background: #e74c3c;">
+    <div>Cerrar Sesión Offline</div>
+        </button>
+
+        <!-- Indicador de modo offline -->
+    <span id="offline_mode_indicator" style="display: none; color: #f39c12; font-weight: bold;">
+    🔌 OFFLINE
+</span>
+
     <div id="avatarContainer">
         <button id="avatarOverlay"><%- lang('landing.usernameEditButton') %></button>
     </div>

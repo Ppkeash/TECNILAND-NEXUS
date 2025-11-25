@@ -488,7 +488,10 @@ class ProcessBuilder {
                     let val = null
                     switch(identifier){
                         case 'auth_player_name':
-                            val = this.authUser.displayName.trim()
+                            // Soportar cuentas offline y premium
+                            val = this.authUser.displayName 
+                                ? this.authUser.displayName.trim()
+                                : this.authUser.username.trim()
                             break
                         case 'version_name':
                             //val = vanillaManifest.id
@@ -504,13 +507,25 @@ class ProcessBuilder {
                             val = this.vanillaManifest.assets
                             break
                         case 'auth_uuid':
-                            val = this.authUser.uuid.trim()
+                            // Soportar UUIDs offline
+                            val = this.authUser.uuid
+                                ? this.authUser.uuid.trim()
+                                : ('offline-' + (this.authUser.username || 'player').toLowerCase())
                             break
                         case 'auth_access_token':
+                            // Token offline o premium
                             val = this.authUser.accessToken
+                            || ('offline-token-' + (this.authUser.username || 'player'))
                             break
                         case 'user_type':
-                            val = this.authUser.type === 'microsoft' ? 'msa' : 'mojang'
+                            // Detectar tipo de usuario
+                            if(this.authUser.type === 'microsoft') {
+                                val = 'msa'
+                            } else if(this.authUser.type === 'offline' || this.authUser.offline) {
+                                val = 'legacy'
+                            } else {
+                                val = 'mojang'
+                            }
                             break
                         case 'version_type':
                             val = this.vanillaManifest.type
@@ -572,7 +587,9 @@ class ProcessBuilder {
                 let val = null
                 switch(identifier){
                     case 'auth_player_name':
-                        val = this.authUser.displayName.trim()
+                        val = this.authUser.displayName
+                            ? this.authUser.displayName.trim()
+                            : this.authUser.username.trim()
                         break
                     case 'version_name':
                         //val = vanillaManifest.id
@@ -588,13 +605,25 @@ class ProcessBuilder {
                         val = this.vanillaManifest.assets
                         break
                     case 'auth_uuid':
-                        val = this.authUser.uuid.trim()
+                        // Soportar UUIDs offline
+                        val = this.authUser.uuid
+                            ? this.authUser.uuid.trim()
+                            : ('offline-' + (this.authUser.username || 'player').toLowerCase())
                         break
                     case 'auth_access_token':
+                        // Token offline o premium
                         val = this.authUser.accessToken
+                        || ('offline-token-' + (this.authUser.username || 'player'))
                         break
                     case 'user_type':
-                        val = this.authUser.type === 'microsoft' ? 'msa' : 'mojang'
+                        // Detectar tipo de usuario
+                        if(this.authUser.type === 'microsoft') {
+                            val = 'msa'
+                        } else if(this.authUser.type === 'offline' || this.authUser.offline) {
+                            val = 'legacy'
+                        } else {
+                            val = 'mojang'
+                        }
                         break
                     case 'user_properties': // 1.8.9 and below.
                         val = '{}'

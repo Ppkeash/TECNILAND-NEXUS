@@ -30,6 +30,7 @@ const {
 // Internal Requirements
 const DiscordWrapper          = require('./assets/js/discordwrapper')
 const ProcessBuilder          = require('./assets/js/processbuilder')
+const OfflineAccountManager   = require('./assets/js/offlineaccountmanager')
 
 // Launch Elements
 const launch_content          = document.getElementById('launch_content')
@@ -156,45 +157,69 @@ document.getElementById('avatarOverlay').onclick = async e => {
 function updateSelectedAccount(authUser){
     let username = Lang.queryJS('landing.selectedAccount.noAccountSelected')
     const offlineIndicator = document.getElementById('offline_mode_indicator')
+    const avatarContainer = document.getElementById('avatarContainer')
+    const logoutBtn = document.getElementById('offlineLogoutButton')
     
     // Verificar si hay usuario offline
     const offlineAccount = OfflineAccountManager.getSelected()
     
     if(offlineAccount){
-    // Mostrar cuenta offline
+        // ===== MODO OFFLINE =====
+        console.log('📋 Mostrando cuenta sin conexión:', offlineAccount.username)
         username = offlineAccount.username
-        const offlineIndicator = document.getElementById('offline_mode_indicator')
-        const logoutBtn = document.getElementById('offlineLogoutButton')
     
+        // Indicador de modo offline
+
         if(offlineIndicator){
             offlineIndicator.style.display = 'inline'
+
         }
+
+        // Mostrar botón de logout offline
         if(logoutBtn){
             logoutBtn.style.display = 'block'
         }
     
-        // No mostrar avatar para offline
-        document.getElementById('avatarContainer').style.backgroundImage = 'none'
+        // Ocultar avatar (no hay skin en offline)
+        if(avatarContainer){
+            avatarContainer.style.backgroundImage = 'none'
+            avatarContainer.style.backgroundColor = '#4a4a4a'
+        }
+
     } else {
-    // Mostrar botón solo cuando hay offline account
-        const logoutBtn = document.getElementById('offlineLogoutButton')
+
+        // ===== MODO PREMIUM (Microsoft/Mojang) =====
+
+        // Ocultar indicador offline
+
+        if(offlineIndicator){
+            offlineIndicator.style.display = 'none'
+        }
+
+        // Ocultar botón logout offline
         if(logoutBtn){
             logoutBtn.style.display = 'none'
         }
 
-        // Modo premium (Microsoft/Mojang)
-        if(offlineIndicator){
-            offlineIndicator.style.display = 'none'
-        }
+        // Mostrar datos de cuenta premium
         if(authUser != null){
             if(authUser.displayName != null){
                 username = authUser.displayName
             }
-            if(authUser.uuid != null){
-                document.getElementById('avatarContainer').style.backgroundImage = `url('https://mc-heads.net/body/${authUser.uuid}/right')`
+            if(authUser.uuid != null && avatarContainer){
+                avatarContainer.style.backgroundImage = `url('https://mc-heads.net/body/${authUser.uuid}/right')`
+                avatarContainer.style.backgroundColor = 'transparent'
+            }
+        } else {
+            // No hay cuenta seleccionada
+            if(avatarContainer){
+                avatarContainer.style.backgroundImage = 'none'
+                avatarContainer.style.backgroundColor = 'transparent'
             }
         }
     }
+    
+    // Actualizar nombre en UI
     user_text.innerHTML = username
 }
 
@@ -508,19 +533,28 @@ async function dlAsync(login = true) {
     console.log('🟡 [dlAsync] Obteniendo servidor...')
     const serv = distro.getServerById(ConfigManager.getSelectedServer())
 
-    // 🟡 Priorizar cuentas offline para usuarios no-premium
+    // ===== CONSTRUCCIÓN DEL PROCESO =====
     const offlineAccount = OfflineAccountManager.getSelected()
-
+    
+    let authUser
     if(offlineAccount) {
-        console.log('✅ [dlAsync] Usando cuenta offline:', offlineAccount.username)
-        login = false // No validar cuenta online
-    } else if(login) {
-    // Solo si no hay cuenta offline Y login es true
-        if(ConfigManager.getSelectedAccount() == null){
-            loggerLanding.error('You must be logged into an account.')
-            return
-        }
+        // Usar cuenta offline
+        authUser = OfflineAccountManager.getAuthUser()
+        console.log('🎮 [dlAsync] Launching with offline user:', authUser.username)
+    } else {
+        // Usar cuenta premium
+        authUser = ConfigManager.getSelectedAccount()
+        console.log('🎮 [dlAsync] Launching with premium user:', authUser.displayName)
     }
+    
+    if(!authUser) {
+        loggerLanding.error('No valid authentication user found')
+        showLaunchFailure('Error', 'No se pudo obtener información de la cuenta')
+        return
+    }
+    
+    loggerLanding.info(`Sending selected account (${authUser.displayName || authUser.username}) to ProcessBuilder.`)
+
 
 
     setLaunchDetails(Lang.queryJS('landing.dlAsync.pleaseWait'))
@@ -1170,3 +1204,31 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 // Llama esto siempre que agregues/elimine cuentas también
+
+// ===== MANEJO DE BOTÓN LOGOUT OFFLINE =====
+document.addEventListener('DOMContentLoaded', () => {
+    const logoutBtn = document.getElementById('offlineLogoutButton')
+    if(logoutBtn) {
+        logoutBtn.addEventListener('click', (e) => {
+            e.preventDefault()
+            e.stopPropagation()
+            
+            const offlineAcc = OfflineAccountManager.getSelected()
+            if(offlineAcc && confirm(`¿Cerrar sesión de ${offlineAcc.username}?`)) {
+                console.log('🚪 Logging out offline account')
+                OfflineAccountManager.logout()
+                updateSelectedAccount(ConfigManager.getSelectedAccount())
+                
+                // Opcional: recargar página
+                // location.reload()
+            }
+        })
+    }
+    
+    // Auto-actualizar UI al cargar
+    if(OfflineAccountManager.isLoggedIn()) {
+        const offlineAccount = OfflineAccountManager.getSelected()
+        console.log('📋 Setting offline account on page load:', offlineAccount.username)
+        updateSelectedAccount(null)
+    }
+})
