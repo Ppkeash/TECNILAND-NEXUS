@@ -1138,75 +1138,42 @@ async function loadNews(){
     return await promise
 }
 
-// Botón logout offline
+// ========================================
+// MANEJO DE SISTEMA OFFLINE
+// ========================================
+
 document.addEventListener('DOMContentLoaded', () => {
-    const logoutBtn = document.getElementById('offlineLogoutButton')
-    if(logoutBtn) {
-        logoutBtn.addEventListener('click', (e) => {
-            e.preventDefault()
-            e.stopPropagation()
+    
+    // 1. BOTÓN LOGIN OFFLINE - Abre ventana para crear cuenta
+    const loginBtn = document.getElementById('offlineLoginButton')
+    if(loginBtn) {
+        loginBtn.addEventListener('click', () => {
+            const { BrowserWindow } = require('@electron/remote')
+            const path = require('path')
             
-            if(confirm('¿Cerrar sesión offline?')) {
-                OfflineAccountManager.logout()
-                location.reload()
-            }
+            let offlineWindow = new BrowserWindow({
+                width: 450,
+                height: 550,
+                frame: true,
+                resizable: false,
+                title: 'Login Offline - TECNILAND',
+                webPreferences: {
+                    nodeIntegration: true,
+                    contextIsolation: false
+                }
+            })
+            
+            offlineWindow.loadFile(path.join(__dirname, '..', '..', 'login_offline.ejs'))
+            
+            offlineWindow.on('closed', () => {
+                // Actualizar UI cuando se cierre la ventana
+                updateSelectedAccount(null)
+                offlineWindow = null
+            })
         })
     }
-})
-
-// Auto-actualizar cuenta offline al cargar landing
-document.addEventListener('DOMContentLoaded', () => {
-    if(typeof OfflineAccountManager !== 'undefined' && OfflineAccountManager.isLoggedIn()) {
-        const offlineAccount = OfflineAccountManager.getSelected()
-        if(offlineAccount && typeof updateSelectedAccount === 'function') {
-            console.log('📋 Setting offline account on load:', offlineAccount.username)
-            updateSelectedAccount(null)
-        }
-    }
-})
-
-// --- Selector de cuentas offline ---
-function renderOfflineSelect(){
-    const offlineSelect = document.getElementById('offlineSelect')
-    const accounts = OfflineAccountManager.getAccounts()
-    const selectedAcc = OfflineAccountManager.getSelected()
     
-    offlineSelect.innerHTML = ''
-    accounts.forEach(acc => {
-        const opt = document.createElement('option')
-        opt.value = acc.username
-        opt.textContent = acc.username
-        if(selectedAcc && selectedAcc.username === acc.username){
-            opt.selected = true
-        }
-        offlineSelect.appendChild(opt)
-    })
-
-    offlineSelect.style.display = accounts.length > 1 ? 'inline-block' : 'none'
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Render selector si hay cuentas
-    if(typeof OfflineAccountManager !== 'undefined'){
-        renderOfflineSelect()
-    }
-    
-    // Cambiar usuario offline al seleccionar otro
-    const offlineSelect = document.getElementById('offlineSelect')
-    if(offlineSelect){
-        offlineSelect.addEventListener('change', (e) => {
-            const selected = offlineSelect.value
-            OfflineAccountManager.setSelected(selected)
-            // Refrescar UI
-            if(typeof updateSelectedAccount === 'function') updateSelectedAccount(null)
-        })
-    }
-})
-
-// Llama esto siempre que agregues/elimine cuentas también
-
-// ===== MANEJO DE BOTÓN LOGOUT OFFLINE =====
-document.addEventListener('DOMContentLoaded', () => {
+    // 2. BOTÓN LOGOUT OFFLINE - Cierra sesión offline
     const logoutBtn = document.getElementById('offlineLogoutButton')
     if(logoutBtn) {
         logoutBtn.addEventListener('click', (e) => {
@@ -1218,17 +1185,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log('🚪 Logging out offline account')
                 OfflineAccountManager.logout()
                 updateSelectedAccount(ConfigManager.getSelectedAccount())
-                
-                // Opcional: recargar página
-                // location.reload()
             }
         })
     }
     
-    // Auto-actualizar UI al cargar
-    if(OfflineAccountManager.isLoggedIn()) {
-        const offlineAccount = OfflineAccountManager.getSelected()
-        console.log('📋 Setting offline account on page load:', offlineAccount.username)
-        updateSelectedAccount(null)
-    }
+    // 3. AUTO-CARGAR CUENTA OFFLINE AL INICIAR
+    setTimeout(() => {
+        if(OfflineAccountManager.isLoggedIn()) {
+            const offlineAccount = OfflineAccountManager.getSelected()
+            console.log('📋 Auto-loading offline account:', offlineAccount.username)
+            updateSelectedAccount(null)
+        }
+    }, 500)
 })
+

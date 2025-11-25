@@ -235,7 +235,33 @@
             </div>
         </div>
     </div>
-    <script src="./assets/js/scripts/offlineAccountManager.js"></script>
     <script src="./assets/js/scripts/landing.js"></script>
-    <script src="./assets/js/scripts/landingOffline.js"></script>
+    <script>
+        // Handler para botón offline
+document.getElementById('offlineLoginButton').addEventListener('click', () => {
+    const { BrowserWindow } = require('@electron/remote')
+    const path = require('path')
+    
+    let offlineWindow = new BrowserWindow({
+        width: 450,
+        height: 550,
+        frame: true,
+        resizable: false,
+        webPreferences: {
+            nodeIntegration: true,
+            contextIsolation: false
+        }
+    })
+    
+    offlineWindow.loadFile(path.join(__dirname, 'login_offline.ejs'))
+    
+    offlineWindow.on('closed', () => {
+        // Actualizar UI cuando se cierre la ventana
+        if(typeof updateSelectedAccount === 'function') {
+            updateSelectedAccount(null)
+        }
+        offlineWindow = null
+    })
+})
+    </script>
 </div>
