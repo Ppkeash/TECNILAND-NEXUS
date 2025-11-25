@@ -352,6 +352,82 @@ app.on('window-all-closed', () => {
     }
 })
 
+// Handle offline login
+const { spawn } = require('child_process')
+const os = require('os')
+const glob = require('glob')
+
+ipcMain.handle('login-offline', async (event, username) => {
+    try {
+        console.log('🎮 Launching Minecraft offline with username:', username)
+        
+        const minecraftPath = path.join(os.homedir(), '.minecraft')
+        
+        // GUARDAR CUENTA OFFLINE EN CONFIG
+        try {
+            const ConfigManager = require('./app/assets/js/configmanager')
+            const uuid = username.toLowerCase().replace(/[^a-z0-9-]/g, '')
+            ConfigManager.addOfflineAuthAccount(username, uuid)
+            ConfigManager.save()
+            console.log('✅ Offline account saved to config')
+        } catch(cfgErr) {
+            console.warn('⚠️ Could not save config, launching anyway:', cfgErr.message)
+        }
+        
+        // Buscar todos los JARs en libraries
+        const libJars = glob.sync(path.join(minecraftPath, 'libraries', '**', '*.jar'))
+        const classPath = [
+            ...libJars,
+            path.join(minecraftPath, 'versions', '1.20.1', '1.20.1.jar')
+        ].join(path.delimiter)
+        
+        const javaPath = path.join(process.env.JAVA_HOME || 'C:\\Program Files\\Java\\jdk-21', 'bin', 'java')
+        
+        const args = [
+            '-Xmx2G',
+            '-Xms512M',
+            `-Djava.library.path=${path.join(minecraftPath, 'natives')}`,
+            '-cp',
+            classPath,
+            'net.minecraft.client.main.Main',
+            '--username', username,
+            '--version', '1.20.1',
+            '--gameDir', minecraftPath,
+            '--assetsDir', path.join(minecraftPath, 'assets'),
+            '--assetIndex', '1.20',
+            '--uuid', username,
+            '--accessToken', 'offline-' + username,
+            '--userType', 'legacy',
+            '--versionType', 'release'
+        ]
+        
+        const proc = spawn(javaPath, args, {
+            detached: true,
+            stdio: 'ignore'
+        })
+        
+        proc.on('error', (err) => {
+            console.error('❌ Failed to spawn Java:', err)
+        })
+        
+        proc.unref()
+        
+        console.log('✅ Minecraft launched with PID:', proc.pid)
+        return { 
+            success: true, 
+            message: 'Minecraft launched offline',
+            pid: proc.pid
+        }
+    } catch(error) {
+        console.error('❌ Offline launch error:', error)
+        return { 
+            success: false, 
+            error: error.message || 'Failed to launch Minecraft'
+        }
+    }
+})
+
+
 app.on('activate', () => {
     // On macOS it's common to re-create a window in the app when the
     // dock icon is clicked and there are no other windows open.

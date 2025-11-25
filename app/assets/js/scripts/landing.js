@@ -42,6 +42,17 @@ const user_text               = document.getElementById('user_text')
 
 const loggerLanding = LoggerUtil.getLogger('Landing')
 
+// 🟡 DEBUG: Verificar DistroAPI
+console.log('🟡 [landing.js] Landing page loaded')
+if(typeof DistroAPI !== 'undefined') {
+    const distro = DistroAPI.getDistribution()
+    if(distro) {
+        console.log('✅ [landing.js] Distribution ya está cargada')
+    } else {
+        console.log('⚠️ [landing.js] Distribution aún no está lista')
+    }
+}
+
 /* Launch Progress Wrapper Functions */
 
 /**
@@ -144,16 +155,50 @@ document.getElementById('avatarOverlay').onclick = async e => {
 // Bind selected account
 function updateSelectedAccount(authUser){
     let username = Lang.queryJS('landing.selectedAccount.noAccountSelected')
-    if(authUser != null){
-        if(authUser.displayName != null){
-            username = authUser.displayName
+    const offlineIndicator = document.getElementById('offline_mode_indicator')
+    
+    // Verificar si hay usuario offline
+    const offlineAccount = OfflineAccountManager.getSelected()
+    
+    if(offlineAccount){
+    // Mostrar cuenta offline
+        username = offlineAccount.username
+        const offlineIndicator = document.getElementById('offline_mode_indicator')
+        const logoutBtn = document.getElementById('offlineLogoutButton')
+    
+        if(offlineIndicator){
+            offlineIndicator.style.display = 'inline'
         }
-        if(authUser.uuid != null){
-            document.getElementById('avatarContainer').style.backgroundImage = `url('https://mc-heads.net/body/${authUser.uuid}/right')`
+        if(logoutBtn){
+            logoutBtn.style.display = 'block'
+        }
+    
+        // No mostrar avatar para offline
+        document.getElementById('avatarContainer').style.backgroundImage = 'none'
+    } else {
+    // Mostrar botón solo cuando hay offline account
+        const logoutBtn = document.getElementById('offlineLogoutButton')
+        if(logoutBtn){
+            logoutBtn.style.display = 'none'
+        }
+
+        // Modo premium (Microsoft/Mojang)
+        if(offlineIndicator){
+            offlineIndicator.style.display = 'none'
+        }
+        if(authUser != null){
+            if(authUser.displayName != null){
+                username = authUser.displayName
+            }
+            if(authUser.uuid != null){
+                document.getElementById('avatarContainer').style.backgroundImage = `url('https://mc-heads.net/body/${authUser.uuid}/right')`
+            }
         }
     }
     user_text.innerHTML = username
 }
+
+
 updateSelectedAccount(ConfigManager.getSelectedAccount())
 
 // Bind selected server
@@ -446,33 +491,37 @@ const GAME_LAUNCH_REGEX = /^\[.+\]: (?:MinecraftForge .+ Initialized|ModLauncher
 const MIN_LINGER = 5000
 
 async function dlAsync(login = true) {
-
-    // Login parameter is temporary for debug purposes. Allows testing the validation/downloads without
-    // launching the game.
-
     const loggerLaunchSuite = LoggerUtil.getLogger('LaunchSuite')
-
     setLaunchDetails(Lang.queryJS('landing.dlAsync.loadingServerInfo'))
-
     let distro
-
     try {
+        console.log('🟡 [dlAsync] Obteniendo distribution...')
         distro = await DistroAPI.refreshDistributionOrFallback()
-        onDistroRefresh(distro)
+        console.log('✅ [dlAsync] Distribution obtenida')
+
     } catch(err) {
         loggerLaunchSuite.error('Unable to refresh distribution index.', err)
         showLaunchFailure(Lang.queryJS('landing.dlAsync.fatalError'), Lang.queryJS('landing.dlAsync.unableToLoadDistributionIndex'))
         return
     }
 
+    console.log('🟡 [dlAsync] Obteniendo servidor...')
     const serv = distro.getServerById(ConfigManager.getSelectedServer())
 
-    if(login) {
+    // 🟡 Priorizar cuentas offline para usuarios no-premium
+    const offlineAccount = OfflineAccountManager.getSelected()
+
+    if(offlineAccount) {
+        console.log('✅ [dlAsync] Usando cuenta offline:', offlineAccount.username)
+        login = false // No validar cuenta online
+    } else if(login) {
+    // Solo si no hay cuenta offline Y login es true
         if(ConfigManager.getSelectedAccount() == null){
             loggerLanding.error('You must be logged into an account.')
             return
         }
     }
+
 
     setLaunchDetails(Lang.queryJS('landing.dlAsync.pleaseWait'))
     toggleLaunchArea(true)
@@ -554,6 +603,36 @@ async function dlAsync(login = true) {
     if(login) {
         const authUser = ConfigManager.getSelectedAccount()
         loggerLaunchSuite.info(`Sending selected account (${authUser.displayName}) to ProcessBuilder.`)
+        
+        // 🟡 Extraer modpack si es necesario
+        console.log('🟡 [dlAsync] Verificando si necesita extraer modpack...')
+    
+        const path = require('path')
+        const fs = require('fs-extra')
+        const extractZip = require('extract-zip')
+    
+        const instancePath = path.join(ConfigManager.getInstanceDirectory(), serv.rawServer.id)
+        const zipPath = path.join(instancePath, 'modpacks', 'TECNILAND_OG_1.0.zip')
+        const markerFile = path.join(instancePath, '.tecniland_extracted')
+    
+        if (!fs.existsSync(markerFile) && fs.existsSync(zipPath)) {
+            console.log('🟡 [dlAsync] Extrayendo modpack...')
+            setLaunchDetails('Extrayendo modpack...')
+        
+            try {
+                await extractZip(zipPath, { dir: instancePath })
+                console.log('✅ [dlAsync] Modpack extraído correctamente')
+                fs.writeFileSync(markerFile, 'extracted')
+            } catch (err) {
+                console.error('❌ [dlAsync] Error extrayendo ZIP:', err)
+                loggerLaunchSuite.error('Error al extraer modpack:', err)
+                showLaunchFailure('Error', 'No se pudo extraer el modpack')
+                return
+            }
+        } else if (fs.existsSync(markerFile)) {
+            console.log('✅ [dlAsync] Modpack ya fue extraído, continuando...')
+        }
+
         let pb = new ProcessBuilder(serv, versionData, modLoaderData, authUser, remote.app.getVersion())
         setLaunchDetails(Lang.queryJS('landing.dlAsync.launchingGame'))
 
@@ -1024,3 +1103,70 @@ async function loadNews(){
 
     return await promise
 }
+
+// Botón logout offline
+document.addEventListener('DOMContentLoaded', () => {
+    const logoutBtn = document.getElementById('offlineLogoutButton')
+    if(logoutBtn) {
+        logoutBtn.addEventListener('click', (e) => {
+            e.preventDefault()
+            e.stopPropagation()
+            
+            if(confirm('¿Cerrar sesión offline?')) {
+                OfflineAccountManager.logout()
+                location.reload()
+            }
+        })
+    }
+})
+
+// Auto-actualizar cuenta offline al cargar landing
+document.addEventListener('DOMContentLoaded', () => {
+    if(typeof OfflineAccountManager !== 'undefined' && OfflineAccountManager.isLoggedIn()) {
+        const offlineAccount = OfflineAccountManager.getSelected()
+        if(offlineAccount && typeof updateSelectedAccount === 'function') {
+            console.log('📋 Setting offline account on load:', offlineAccount.username)
+            updateSelectedAccount(null)
+        }
+    }
+})
+
+// --- Selector de cuentas offline ---
+function renderOfflineSelect(){
+    const offlineSelect = document.getElementById('offlineSelect')
+    const accounts = OfflineAccountManager.getAccounts()
+    const selectedAcc = OfflineAccountManager.getSelected()
+    
+    offlineSelect.innerHTML = ''
+    accounts.forEach(acc => {
+        const opt = document.createElement('option')
+        opt.value = acc.username
+        opt.textContent = acc.username
+        if(selectedAcc && selectedAcc.username === acc.username){
+            opt.selected = true
+        }
+        offlineSelect.appendChild(opt)
+    })
+
+    offlineSelect.style.display = accounts.length > 1 ? 'inline-block' : 'none'
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Render selector si hay cuentas
+    if(typeof OfflineAccountManager !== 'undefined'){
+        renderOfflineSelect()
+    }
+    
+    // Cambiar usuario offline al seleccionar otro
+    const offlineSelect = document.getElementById('offlineSelect')
+    if(offlineSelect){
+        offlineSelect.addEventListener('change', (e) => {
+            const selected = offlineSelect.value
+            OfflineAccountManager.setSelected(selected)
+            // Refrescar UI
+            if(typeof updateSelectedAccount === 'function') updateSelectedAccount(null)
+        })
+    }
+})
+
+// Llama esto siempre que agregues/elimine cuentas también

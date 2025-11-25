@@ -790,4 +790,116 @@ exports.getAllowPrerelease = function(def = false){
  */
 exports.setAllowPrerelease = function(allowPrerelease){
     config.settings.launcher.allowPrerelease = allowPrerelease
+
+}
+
+/**
+ * Adds an authenticated offline account to the database to be stored.
+ * 
+ * @param {string} username The username of the offline account.
+ * @param {string} uuid The uuid (same as username for offline).
+ * 
+ * @returns {Object} The authenticated account object created by this action.
+ */
+exports.addOfflineAuthAccount = function(username, uuid){
+    config.selectedAccount = uuid
+    config.authenticationDatabase[uuid] = {
+        type: 'offline',
+        accessToken: 'offline-' + username,
+        username: username.trim(),
+        uuid: uuid.trim(),
+        displayName: username.trim()
+    }
+    return config.authenticationDatabase[uuid]
+}
+
+/**
+ * Offline Accounts Management
+ */
+
+/**
+ * Get all offline accounts.
+ * @returns {Array} Array of offline accounts
+ */
+exports.getOfflineAccounts = function(){
+    if(!config.offlineAccounts){
+        config.offlineAccounts = []
+    }
+    return config.offlineAccounts
+}
+
+/**
+ * Add an offline account.
+ * @param {string} username The username
+ * @returns {Object} The account created
+ */
+exports.addOfflineAccount = function(username){
+    const accounts = exports.getOfflineAccounts()
+    
+    if(accounts.find(acc => acc.username === username)){
+        return null
+    }
+    
+    const account = {
+        username: username,
+        uuid: username.toLowerCase().replace(/[^a-z0-9-]/g, ''),
+        createdAt: new Date().toISOString()
+    }
+    
+    accounts.push(account)
+    exports.save()
+    return account
+}
+
+/**
+ * Remove an offline account.
+ * @param {string} username The username
+ * @returns {boolean} True if removed
+ */
+exports.removeOfflineAccount = function(username){
+    let accounts = exports.getOfflineAccounts()
+    const original = accounts.length
+    accounts = accounts.filter(acc => acc.username !== username)
+    
+    if(accounts.length < original){
+        config.offlineAccounts = accounts
+        
+        if(config.selectedOfflineAccount === username){
+            config.selectedOfflineAccount = null
+        }
+        
+        exports.save()
+        return true
+    }
+    
+    return false
+}
+
+/**
+ * Set the selected offline account.
+ * @param {string} username The username
+ * @returns {boolean} True if set
+ */
+exports.setSelectedOfflineAccount = function(username){
+    const accounts = exports.getOfflineAccounts()
+    
+    if(accounts.find(acc => acc.username === username) || username === null){
+        config.selectedOfflineAccount = username
+        exports.save()
+        return true
+    }
+    
+    return false
+}
+
+/**
+ * Get the selected offline account.
+ * @returns {Object|null} The selected account or null
+ */
+exports.getSelectedOfflineAccount = function(){
+    const selected = config.selectedOfflineAccount
+    if(!selected) return null
+    
+    const accounts = exports.getOfflineAccounts()
+    return accounts.find(acc => acc.username === selected) || null
 }

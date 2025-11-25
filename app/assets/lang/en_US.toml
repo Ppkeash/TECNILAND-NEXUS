@@ -33,11 +33,14 @@ loginNeedAccountLink = "https://minecraft.net/store/minecraft-java-edition/"
 loginNeedAccountText = "Need an Account?"
 loginPasswordDisclaimer1 = "Your password is sent directly to mojang and never stored."
 loginPasswordDisclaimer2 = "{appName} is not affiliated with Mojang AB."
+loginOfflineButtonText = "PLAY"
+loginOfflineSubheader = "OFFLINE MODE"
 
 [ejs.loginOptions]
 loginOptionsTitle = "Login Options"
 loginWithMicrosoft = "Login with Microsoft"
 loginWithMojang = "Login with Mojang"
+loginOffline = "Play Offline"
 cancelButton = "Cancel"
 
 [ejs.overlay]

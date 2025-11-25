@@ -1,3 +1,4 @@
+
 /**
  * Script for login.ejs
  */
@@ -77,6 +78,12 @@ function validateEmail(value){
  * @param {string} value The password value.
  */
 function validatePassword(value){
+    // Si es modo offline, no validar contraseña
+    if(window.offlineMode){
+        loginDisabled(false)
+        return
+    }
+    
     if(value){
         loginPasswordError.style.opacity = 0
         lp = true
@@ -107,6 +114,16 @@ loginUsername.addEventListener('input', (e) => {
 loginPassword.addEventListener('input', (e) => {
     validatePassword(e.target.value)
 })
+
+// Validación para modo offline (solo username)
+loginUsername.addEventListener('input', (e) => {
+    if(window.offlineMode && e.target.value){
+        loginDisabled(false)
+    } else if(window.offlineMode && !e.target.value){
+        loginDisabled(true)
+    }
+})
+
 
 /**
  * Enable or disable the login button.
@@ -181,6 +198,54 @@ loginForm.onsubmit = () => { return false }
 
 // Bind login button behavior.
 loginButton.addEventListener('click', () => {
+// Si es modo offline, procesar diferente
+    if(window.offlineMode){
+        formDisabled(true)
+        loginLoading(true)
+    
+        const username = loginUsername.value.trim()
+        
+        if(!username){
+            showError(loginEmailError, 'Username required')
+            loginLoading(false)
+            formDisabled(false)
+            return
+        }
+    
+        // GUARDAR CUENTA OFFLINE
+        OfflineAccountManager.addAccount(username)
+
+
+        // Simular éxito
+        loginButton.innerHTML = loginButton.innerHTML.replace(Lang.queryJS('login.loggingIn'), Lang.queryJS('login.success'))
+        $('.circle-loader').toggleClass('load-complete')
+        $('.checkmark').toggle()
+        setTimeout(() => {
+            switchView(VIEWS.login, loginViewOnSuccess, 500, 500, async () => {
+            // LLAMAR updateSelectedAccount PARA MOSTRAR EL NOMBRE OFFLINE
+                if(typeof updateSelectedAccount === 'function') {
+                    updateSelectedAccount(null)
+                }
+            
+                if(loginViewOnSuccess === VIEWS.settings){
+                    await prepareSettings()
+                }
+                loginViewOnSuccess = VIEWS.landing
+                loginCancelEnabled(false)
+                loginViewCancelHandler = null
+                loginUsername.value = ''
+                loginPassword.value = ''
+                $('.circle-loader').toggleClass('load-complete')
+                $('.checkmark').toggle()
+                loginLoading(false)
+                loginButton.innerHTML = loginButton.innerHTML.replace(Lang.queryJS('login.success'), Lang.queryJS('login.login'))
+                formDisabled(false)
+                window.offlineMode = false
+            })
+        }, 1000)
+
+        return
+    }
     // Disable form.
     formDisabled(true)
 
@@ -194,6 +259,10 @@ loginButton.addEventListener('click', () => {
         $('.checkmark').toggle()
         setTimeout(() => {
             switchView(VIEWS.login, loginViewOnSuccess, 500, 500, async () => {
+                // LLAMAR updateSelectedAccount AQUÍ para mostrar offline inmediatamente
+                if(typeof updateSelectedAccount === 'function') {
+                    updateSelectedAccount(null)
+                }
                 // Temporary workaround
                 if(loginViewOnSuccess === VIEWS.settings){
                     await prepareSettings()
@@ -231,4 +300,6 @@ loginButton.addEventListener('click', () => {
         toggleOverlay(true)
     })
 
+    
 })
+

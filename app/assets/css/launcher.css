@@ -3966,3 +3966,33 @@ input:checked + .toggleSwitchSlider:before {
 .rotating {
     animation: rotating 10s linear infinite;
 }
+
+#offline_mode_indicator {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 0;
+}
+
+#offlineLogoutButton:hover {
+    background: #cc0000 !important;
+    transform: scale(1.05);
+}
+
+#offlineLogoutButton:active {
+    transform: scale(0.95);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    #offline_mode_indicator {
+        font-size: 0.65em;
+        gap: 4px;
+    }
+    
+    #offlineLogoutButton {
+        padding: 3px 6px !important;
+        font-size: 0.7em !important;
+    }
+}

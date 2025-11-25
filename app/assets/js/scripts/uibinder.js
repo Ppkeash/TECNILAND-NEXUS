@@ -79,7 +79,36 @@ async function showMainUI(data){
         if(!isDev && isLoggedIn){
             validateSelectedAccount()
         }
+        
+        // Auto-login offline si existe
+        if(typeof OfflineAccountManager !== 'undefined' && OfflineAccountManager.isLoggedIn()) {
+            const offlineAccount = OfflineAccountManager.getSelected()
+            if(offlineAccount) {
+                console.log('✅ Auto-login offline:', offlineAccount.username)
+                // Llamar updateSelectedAccount AQUÍ
+                if(typeof updateSelectedAccount === 'function') {
+                    updateSelectedAccount(null)
+                }
+        
+                if(ConfigManager.isFirstLaunch()){
+                    currentView = VIEWS.welcome
+                    $(VIEWS.welcome).fadeIn(1000)
+                } else {
+                    currentView = VIEWS.landing
+                    $(VIEWS.landing).fadeIn(1000)
+                }
+        
+                setTimeout(() => {
+                    $('#loadingContainer').fadeOut(500, () => {
+                        $('#loadSpinnerImage').removeClass('rotating')
+                    })
+                }, 250)
+        
+                return
+            }
+        }
 
+        // Si no hay offline account, continuar normalmente
         if(ConfigManager.isFirstLaunch()){
             currentView = VIEWS.welcome
             $(VIEWS.welcome).fadeIn(1000)
@@ -101,7 +130,8 @@ async function showMainUI(data){
                 $('#loadSpinnerImage').removeClass('rotating')
             })
         }, 250)
-        
+
+
     }, 750)
     // Disable tabbing to the news container.
     initNews().then(() => {
@@ -133,12 +163,23 @@ function showFatalStartupError(){
  * @param {Object} data The distro index object.
  */
 function onDistroRefresh(data){
+    console.log('🟡 [onDistroRefresh] Verificando data:', typeof data)
+    
+    // Verificar que data tenga los métodos correctos
+    if (!data || typeof data.getServerById !== 'function') {
+        console.error('❌ [onDistroRefresh] data no es válida o no tiene getServerById')
+        console.log('Data recibida:', data)
+        return
+    }
+    
+    console.log('✅ [onDistroRefresh] Data válida, procesando...')
     updateSelectedServer(data.getServerById(ConfigManager.getSelectedServer()))
     refreshServerStatus()
     initNews()
     syncModConfigurations(data)
     ensureJavaSettings(data)
 }
+
 
 /**
  * Sync the mod configurations with the distro index.
