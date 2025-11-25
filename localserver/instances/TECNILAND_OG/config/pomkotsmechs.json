@@ -1,0 +1,6 @@
+{
+  "enableEntityBlockDestruction": false,
+  "enableHudHealthBar": true,
+  "consumeBlocksWhenPlacing": true,
+  "dropItemsWhenDestroyBlock": false
+}

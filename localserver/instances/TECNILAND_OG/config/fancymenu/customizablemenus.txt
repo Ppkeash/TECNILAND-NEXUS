@@ -1,0 +1,56 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+dev.arbor.extrasoundsnext.gui.CustomSoundOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.SkinCustomizationScreen {
+}
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.AccessibilityOptionsScreen {
+}
+
+dev.arbor.extrasoundsnext.gui.SoundGroupOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.LanguageSelectScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
+}
+
+net.minecraftforge.client.gui.ModListScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+net.irisshaders.iris.gui.screen.ShaderPackScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+net.minecraft.client.gui.screens.MouseSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.ConnectScreen {
+}
+

@@ -1,0 +1,11 @@
+
+["Configs for Hamtastic Hamsters!"]
+	#Minimum amount of time, in ticks, it takes a hamster to stand up on it's hind legs. Default is 3600.
+	"Hamster Min Stand Tick" = 3600
+	#Possible added amount of time, in ticks, it takes a hamster to stand up on it's hind legs. Default is +3600.
+	"Hamster Additive Stand Tick" = 3600
+	#Amount of time, in ticks, that a hamster's cheeks will stay puffed for after being fed. Default is 2400.
+	"Hamster Puffy Cheeks Tick" = 2400
+	#Should tamed hamsters of the same gender fight if allowed near one another?
+	"Hamsters Fight" = true
+

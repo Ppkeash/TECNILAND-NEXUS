@@ -1,0 +1,472 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones_de_exploracin_y_descubrimiento_110"
+	group: "189089200EC7B98C"
+	icon: "soulsweapons:boss_compass"
+	id: "3F9A762D32036B7E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["📍 Encuentra y mapea al menos &a5&r estructuras naturales (&btemplos, torres, barcos, ruinas&r, etc.) en diferentes biomas."]
+			icon: "minecraft:map"
+			id: "2F333978BEABD2E2"
+			rewards: [
+				{
+					count: 3
+					id: "2B4E725119757F6A"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					id: "3A14E91EEABAA3B9"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					id: "6ECE6C6A5A5DB0B0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5BC5C4F50B2D5484"
+					item: {
+						Count: 1
+						id: "spartanshields:refined_obsidian_basic_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Cartógrafo de Reinos Perdidos"
+			tasks: [
+				{
+					id: "26F2A32F80729943"
+					title: "Cartógrafo de Reinos Perdidos"
+					type: "checkmark"
+				}
+				{
+					icon: "mffs:pyramid_mode"
+					id: "38C3FD1924308944"
+					structure: "idas:desert_pyramid"
+					title: "Piramide Desierta"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "cosmeticarmoursmod:warden_mask_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2D0B3CC0F2F9871A"
+					optional_task: true
+					structure: "minecraft:ancient_city"
+					title: "Ancient City"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:sandstone"
+					id: "72D554C3A37DC6D0"
+					structure: "minecraft:monument"
+					title: "Monumento"
+					type: "structure"
+				}
+				{
+					icon: "legendary_monsters:ancient_guardian_spawn_egg"
+					id: "7D409E7C45448123"
+					optional_task: true
+					structure: "legendary_monsters:ancient_stronghold"
+					title: "Ancient Stronghold"
+					type: "structure"
+				}
+				{
+					icon: "easy_npc:vindicator_spawn_egg"
+					id: "7A717F4B8FD96545"
+					structure: "minecraft:mansion"
+					title: "Mansion"
+					type: "structure"
+				}
+				{
+					icon: "alexscaves:volcanic_core"
+					id: "3801EE1A38DE0B51"
+					optional_task: true
+					structure: "alexscaves:volcano"
+					title: "Volcano"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:deepslate_iron_ore"
+					id: "2CEDE5D17077B3E7"
+					structure: "minecraft:mineshaft"
+					title: "mineshaft"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:ender_eye"
+					id: "1F21DC2CF574A8EB"
+					optional_task: true
+					structure: "minecraft:stronghold"
+					title: "Stronghold"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:blue_ice"
+					id: "4F24A25522259B3B"
+					structure: "#aquamirae:ship"
+					title: "Ship"
+					type: "structure"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: ["🧭 Llega a las coordenadas más lejanas posibles (±3000 bloques) desde el punto de inicio y deja una señal de tu paso (bandera, altar, escultura)."]
+			id: "68C874BEE72FD20F"
+			rewards: [
+				{
+					count: 3
+					id: "70296F7086E15213"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					id: "203961724AD96BB7"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+				{
+					id: "34ADF9C373FC252A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "29D758B57CC73FB2"
+					item: "doggytalents:propeller_hat"
+					type: "item"
+				}
+			]
+			subtitle: "Sendero del Horizonte"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "2647901542C52BAF"
+				ignore_dimension: false
+				position: [I;
+					3000
+					0
+					3000
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Sendero del Horizonte"
+				type: "location"
+			}]
+			title: "Sendero del Horizonte"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Construye una torre que alcance el límite de altura del mundo. En la cima debe haber una señal &lvisible &rdesde lejos."]
+			id: "2A67D4E59F550680"
+			rewards: [
+				{
+					count: 5
+					id: "7CDBE218AEA21807"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17A89E5A33D193F2"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+				{
+					id: "3E44CB993253B9D4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "5703B0B8C1FF1213"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "La Torre que Toca el Cielo"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "born_in_chaos_v1:spawn_structures_lookout_tower"
+				id: "455C28D028B0FD25"
+				ignore_dimension: false
+				position: [I;
+					0
+					256
+					0
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "La Torre que Toca el Cielo"
+				type: "location"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["Encuentra un sistema de túneles que parezca sin fin por el pueblo de TECNILAND. Marca al menos 5 zonas peligrosas dentro con letreros únicos "]
+			id: "19FE07A23BFA281E"
+			rewards: [
+				{
+					id: "7FDB4850A91BF7CA"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "62FE94955258658E"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					id: "397300B2CBADF46A"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:book"
+				id: "6096524466CF359A"
+				tags: [
+					"zona1"
+					"zona2"
+					"zona3"
+					"zona4"
+					"zona5"
+				]
+				title: "Explorador Subterráneo"
+				type: "custom"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: ["Encuentra el bioma oscuro poco común y crea un pequeño santuario de observación allí."]
+			id: "29EC8D4FB2ED8446"
+			rewards: [
+				{
+					count: 5
+					id: "787D00A98031435C"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					id: "16E420DFA341ACE7"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1370194A6281F9BA"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				icon: "minecraft:dark_oak_sapling"
+				id: "660B9FA130CDE1F4"
+				title: "Santuario del Bioma Raro"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Objetivo:"
+				""
+				"Encuentra una caverna natural profunda (o una generada por mod, como una cueva de The Undergarden o cavernas oscuras)"
+				""
+				"Quédate completamente en silencio (sin colocar bloques o usar objetos) y escucha lo que el entorno te dice"
+				""
+				"Si escuchas un sonido extraño o único (puede ser de mobs, ambiente, dripping, etc.), marca la zona con un nombre misterioso en un letrero o mapa"
+				""
+				"Registra mínimo 3 puntos sonoros distintos en el mundo (pueden ser naturales o activados por mods)"
+			]
+			icon: "born_in_chaos_v1:tombstone_fubuki_banzai"
+			id: "34AA4BA1FCFAE407"
+			rewards: [
+				{
+					count: 5
+					id: "12907429FBFD4840"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "53E8640029012F1E"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+				{
+					id: "347BC654EE50808F"
+					item: "walkietalkie:iron_walkietalkie"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2EC1E7410353C41C"
+					title: "Escucha de lo Profundo"
+					type: "checkmark"
+				}
+				{
+					id: "18FBF83BAE989A76"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: ["Construye un puente colgante entre dos montañas separadas por un abismo. El puente debe ser funcional, hecho con cuerdas, madera o materiales acordes al entorno, decorado con antorchas o faroles, y contener en el centro una pequeña plataforma con un libro o cartel que narre una leyenda inventada sobre un salto épico o trágico ocurrido en ese lugar."]
+			icon: "minecraft:oak_stairs"
+			id: "40453EE34584B4D8"
+			rewards: [
+				{
+					count: 5
+					id: "3DB3BAE889989B0E"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1EF7A473FEAE5150"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B96BE85A44264ED"
+					title: "El Puente del Último Brinco"
+					type: "checkmark"
+				}
+				{
+					id: "0062BF035514904C"
+					item: "securitycraft:bucket_f_water"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: ["Encuentra o excava una cueva gigantesca, llénala de cosas extrañas, fósiles, o artefactos de exploración, e incluso dulces… y usa iluminación tenue. "]
+			id: "49EA339ECE6F06F0"
+			rewards: [
+				{
+					count: 5
+					id: "6E7B21297A2AC1B0"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "044F22423E04D506"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:ghostly_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "006C8BA3678747EC"
+				structure: "alexscaves:cake_cave"
+				title: "La Caverna de los Ecos"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			description: ["Construye un observatorio en la cima de un monte con una gran cúpula o lente mágica. Usa relojes, telescopios o decoraciones cósmicas."]
+			id: "65526163741E7F75"
+			rewards: [
+				{
+					count: 5
+					id: "2D43CD158BE2F60D"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A41BDF6BE0735A4"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "immersive_aircraft:telescope"
+				id: "6213113EFF7E43F8"
+				observe_type: 0
+				timer: 0L
+				title: "El Observador de las Estrellas"
+				to_observe: "minecraft:sky"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			description: ["Escribe un libro en el juego contando una historia real o ficticia de una travesía tuya y déjalo escondido en algún cofre lejano."]
+			id: "54A0C5F83CD3807B"
+			rewards: [
+				{
+					count: 10
+					id: "416C6B50F47ACFB6"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "68347542D587E6CC"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D4F44E14D6FF8D6"
+				item: "minecraft:writable_book"
+				type: "item"
+			}]
+			title: "Crónicas de un Caminante"
+			x: 2.0d
+			y: 6.5d
+		}
+	]
+	subtitle: ["Estas misiones están pensadas para incentivar el viaje, la curiosidad, y el contacto con lo desconocido de TECNILAND. Ideales para todos los jugadores sin importar su rol, pero cada uno puede abordarlas de forma única según su estilo."]
+	title: "Misiones de Exploración y Descubrimiento (1–10)"
+}

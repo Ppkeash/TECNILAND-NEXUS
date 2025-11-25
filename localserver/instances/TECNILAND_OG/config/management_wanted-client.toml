@@ -1,0 +1,10 @@
+
+#Client Settings for Management Wanted
+[management_wanted]
+	#Toggle Custom Title Screen
+	toggleMWTitleScreen = false
+	#Toggle Social Media Icons
+	toggleSocialIcons = false
+	#Toggle Bisect Hosting Icon
+	toggleBisectIcon = false
+

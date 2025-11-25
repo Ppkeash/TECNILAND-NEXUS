@@ -1,0 +1,16 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "mffs:handbook": {
+      "viewedEntries": [
+        "mffs:getting_started/fortron",
+        "mffs:getting_started/introduction",
+        "mffs:getting_started/crafting_components",
+        "mffs:getting_started/gathering_resources"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

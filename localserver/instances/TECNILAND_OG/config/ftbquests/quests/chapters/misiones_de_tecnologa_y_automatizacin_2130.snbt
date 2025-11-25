@@ -1,0 +1,275 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones_de_tecnologa_y_automatizacin_2130"
+	group: "189089200EC7B98C"
+	icon: "sgjourney:naquadah_generator_mark_i"
+	id: "68171CF0B03F24BD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Construye una red de energía automática (solar, eólica, geotérmica, etc.) que alimente al menos 3 máquinas o dispositivos distintos."]
+			icon: "create:minecart_coupling"
+			id: "6F3AEE6DD2B503B0"
+			rewards: [
+				{
+					count: 10
+					id: "59CBB008259A224F"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0BB2F707E8FBED59"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41B814BE49D7A223"
+				title: "Núcleo de Energía Sostenible"
+				type: "custom"
+			}]
+			title: "Núcleo de Energía Sostenible"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: ["Diseña un centro con palancas, pantallas, sensores o decoración futurista donde se “controle” parte de tu base o región"]
+			icon: "pomkotsmechs:corestone_pmv02"
+			id: "07C8ECE9D0363DC1"
+			rewards: [
+				{
+					count: 10
+					id: "2457510AC33AEFC8"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3E637CE65FBEFDF5"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "573B4E96BE73E380"
+				title: "Torre de Control Automatizada"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			description: ["Crea un sistema de transporte automatizado: rieles con controladores, tubos, cintas, o elevadores que conecten distintos puntos de tu base."]
+			icon: "skyarena:diamond_trophy"
+			id: "789DB94AAC7D1D04"
+			rewards: [
+				{
+					count: 10
+					id: "526CE51F92517079"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5B9CC0DA912432AD"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E6E4F0E9544693C"
+				title: "Red de Transporte Inteligente"
+				type: "custom"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			description: ["Crea un sistema que automáticamente separe minerales, comida, materiales y objetos mágicos en cofres distintos."]
+			icon: "create:spruce_window_pane"
+			id: "3D4009E5183404DB"
+			rewards: [
+				{
+					count: 10
+					id: "592CF2C0C80E0753"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3B54A66A354D9537"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D69074087892DDC"
+				title: "Clasificador de Recursos"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			description: ["Configura una línea de producción que construya o genere objetos sin intervención manual"]
+			icon: "management_wanted:prizes_neon_sign"
+			id: "014F89373CF6A249"
+			rewards: [
+				{
+					count: 15
+					id: "1AA5FC71963E9326"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5B4611A00890423E"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F481E568FC46634"
+				title: "Estación de Ensamblaje"
+				type: "custom"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: ["Diseña una sala con tanques, tubos, pantallas y mecanismos visuales donde hagas “experimentos” con mobs, materiales o pociones."]
+			icon: "mffs:speed_module"
+			id: "5A057544EA0EAA93"
+			rewards: [
+				{
+					count: 10
+					id: "575D994A32594850"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5829F920E77984D3"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4179FB90E86C37E8"
+				title: "Laboratorio de Pruebas"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Crea una sala con relojes, mapas, brújulas y controles que “simulen” la gestión de todo TECNILAND. Ideal para decorado + roleo."]
+			icon: "mekanism:module_magnetic_attraction_unit"
+			id: "353B43615BD4CE76"
+			rewards: [
+				{
+					count: 10
+					id: "4749B828A07CDB2F"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5E2CC5E9A3A9E89F"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F651F5AA4AA6FF6"
+				title: "Panel de Administración Global"
+				type: "custom"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			description: ["Construye un núcleo central para tu base tecnológica: una sala donde almacenes un único bloque o máquina que consideres el “corazón” de tu sistema. Decóralo con cables, luces o detalles que lo hagan parecer importante, y deja un libro o cartel explicando qué pasaría si ese núcleo fallara o se corrompiera."]
+			id: "5AC5C3611ABB81F4"
+			rewards: [
+				{
+					count: 10
+					id: "50418A2243056823"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3E538E61802821D3"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "mffs:confiscation_module"
+				id: "7DD433F8CDCD47D7"
+				title: "Núcleo de Identidad"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: ["Usa redstone, trampas, mods o sensores para crear una defensa que actúe sola si se acerca un mob o jugador."]
+			icon: "securitycraft:sentry"
+			id: "583247481EA9F8AB"
+			rewards: [
+				{
+					count: 10
+					id: "772CE86820A66F6D"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0EAA38BC0C9D2828"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BCCACB1B221769E"
+				title: "Torreta de Defensa Automatizada"
+				type: "custom"
+			}]
+			title: "Torreta de Defensa Automatizada"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			description: ["Construye una fábrica, taller o espacio completamente funcional que pueda mantenerse solo por máquinas. “No apto para mortales”."]
+			icon: "mffs:anti_personnel_module"
+			id: "6818B3AE97D94938"
+			rewards: [
+				{
+					count: 15
+					id: "5E660580FCA924CF"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "56B59F7AE6C2642F"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A767FEC536F6D20"
+				title: "Zona Libre de Humanos"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+	]
+	title: "Misiones de Tecnología y Automatización (21–30)"
+}

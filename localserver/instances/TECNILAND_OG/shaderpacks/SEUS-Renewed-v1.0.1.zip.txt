@@ -1,0 +1,2 @@
+#Sat Apr 19 23:51:07 COT 2025
+MOTION_BLUR=false

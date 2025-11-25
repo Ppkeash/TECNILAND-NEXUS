@@ -1,0 +1,283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones_de_lore_y_misterios_7180"
+	group: "189089200EC7B98C"
+	icon: "alexscaves:gummy_ring_green"
+	id: "71AB6F169C838958"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Escribe un libro antiguo sobre un evento que nunca sucedió… pero que podrías convencer a todos de que fue real."]
+			id: "4D317066D037DACA"
+			rewards: [
+				{
+					count: 10
+					id: "37A230C49CA8312A"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0086FF81C84A6BA5"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "rats:rat_papers"
+					tag: { }
+				}
+				id: "4C0DCE6BE6987182"
+				title: "El Archivo del Olvido"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["Coloca pequeñas estatuas o formaciones simbólicas por el mundo que representen hechos del pasado (reales o roleados)."]
+			id: "515055DA6DD7244C"
+			rewards: [
+				{
+					count: 10
+					id: "0315A1B799E70DF9"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "1E667C09DC56B5C7"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "management_wanted:hanging_wall_wires"
+				id: "71628B722C61068E"
+				title: "Las Piedras del Recuerdo"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: ["Esconde un libro con acertijos o fragmentos de un secreto mayor. Solo quien entienda el código podrá completarlo."]
+			id: "285CB01AE9812E78"
+			rewards: [
+				{
+					count: 10
+					id: "2154EDBB7B9922EA"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "1C7A1C2E4B428603"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "tombstone:book_of_oblivion"
+				id: "3C14978E1C1A28A1"
+				title: "El Mensaje de los Antiguos"
+				type: "custom"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			description: ["Construye una sala que parezca congelada en otra época: con decoración de hace “miles de años” o de un futuro distorsionado."]
+			id: "6BF95625CAAF63F0"
+			rewards: [
+				{
+					count: 11
+					id: "33C7B3586CCD8319"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "36E734680A5FB9EB"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "supplementaries:hourglass"
+				id: "18DE374A16C818F5"
+				title: "La Cámara del Tiempo"
+				type: "custom"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			description: ["Crea una serie de símbolos mágicos o runas ocultas en distintas partes del mapa. Cada una da pistas hacia algo mayor."]
+			id: "5056BB1F30A15312"
+			rewards: [
+				{
+					count: 12
+					id: "4DFCD9CE843D1974"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "1B27A6521D83F423"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "doggytalents:dog_christmas_star"
+				id: "23D21FEF90B000D3"
+				title: "El Enigma de las Runas"
+				type: "custom"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: ["Escribe un diario de otro jugador sin que él lo sepa. Luego compártelo… y observa su reacción."]
+			id: "2E2E62F5F47BEE14"
+			rewards: [
+				{
+					count: 11
+					id: "0FDAE978FE99244A"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2DE18B0A95049F7E"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:writable_book"
+				id: "109A5305C750670D"
+				title: "Las Crónicas Silenciadas"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			description: ["Crea un espacio decorado como si viniera de otra dimensión. No expliques nada. Solo observa si otros lo descubren."]
+			id: "4D38FBBBCEBCF849"
+			rewards: [
+				{
+					count: 11
+					id: "0FB868B59FF9A8F4"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6990C6AA71DE444E"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:crying_obsidian"
+				id: "5E66E9CB02E2D583"
+				title: "El Susurro Dimensional"
+				type: "custom"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			description: ["Usa cabezas, estatuas o bloques para construir un “rostro” o figura que simbolice a un ente olvidado. Guárdalo en un santuario."]
+			id: "0321208B674C5E0D"
+			rewards: [
+				{
+					count: 11
+					id: "400DBCF0CBBF53EB"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "63ED3D22BCF9BE96"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "cosmeticarmoursmod:snowman_costume_tophat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "147E10F0DBF62A66"
+				title: "El Rostro del Olvido"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			description: ["Encuentra o crea una biblioteca encantada: libros flotantes, luz tenue, espíritus. Escribe allí secretos del servidor."]
+			id: "05295879A033F1A4"
+			rewards: [
+				{
+					count: 11
+					id: "4637E1165EBF060C"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "567008863215B8C5"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "simplehats:ghostmask"
+				id: "6B126D20D757D25C"
+				title: "El Archivo Espectral"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Construye un “portal” falso que parezca activo, pero no lleve a ningún lado. Decora como si fuera la entrada a una dimensión prohibida"]
+			id: "3F86D7678B4A9342"
+			rewards: [
+				{
+					count: 10
+					id: "0753D513DD85225C"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4E80D376C9A6D254"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "42DC32EA0D4DFA21"
+				title: "El Portal Invertido"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+	title: "Misiones de Lore y Misterios (71–80)"
+}

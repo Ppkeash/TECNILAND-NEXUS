@@ -1,0 +1,243 @@
+
+#Hand Shovel drop chances
+[hand_shovel]
+	#Chance of Hand Shovel dropping Sharp Flint [0-1, default: .30]
+	#Range: 0.0 ~ 1.0
+	sharp_flint_drop_chance = 0.3
+
+#Flint Tool Material Values
+[flint_tool_material]
+	#Flint tool durability [1-250, default: 145]
+	#Range: 1 ~ 250
+	flintToolsDurability = 145
+	#Flint tool mining speed [1-25, default: 5.5]
+	#Range: 1.0 ~ 25.0
+	flintToolsSpeed = 5.5
+	#Flint tool attack damage [1-100, default: 0.5]
+	#Range: 1.0 ~ 100.0
+	flintToolsDamage = 1.0
+	#Flint tool enchantability [0-50, default: 5]
+	#Range: 1 ~ 50
+	flintToolsEnchantability = 5
+
+#Bronze Tool Material Values
+[bronze_tool_material]
+	#Bronze tool durability [1-800, default: 225]
+	#Range: 1 ~ 800
+	bronzeToolsDurability = 225
+	#Bronze tool mining speed [1-25, default: 6.5]
+	#Range: 1.0 ~ 25.0
+	bronzeToolsSpeed = 6.5
+	#Bronze tool attack damage [1-100, default: 0.5]
+	#Range: 1.0 ~ 100.0
+	bronzeToolsDamage = 1.0
+	#Bronze tool enchantability [0-50, default: 10]
+	#Range: 1 ~ 50
+	bronzeToolsEnchantability = 10
+
+#Steel Tool Material Values
+[steel_tool_material]
+	#Steel tool durability [1-800, default: 482]
+	#Range: 1 ~ 800
+	steelToolsDurability = 482
+	#Steel tool mining speed [1-25, default: 6.5]
+	#Range: 1.0 ~ 25.0
+	steelToolsSpeed = 6.5
+	#Steel tool attack damage [1-100, default: 0.5]
+	#Range: 1.0 ~ 100.0
+	steelToolsDamage = 1.0
+	#Steel tool enchantability [0-50, default: 8]
+	#Range: 1 ~ 50
+	steelToolsEnchantability = 8
+
+#Titanium Tool Material Values
+[titanium_tool_material]
+	#Titanium tool durability [1-800, default: 625]
+	#Range: 1 ~ 800
+	titaniumToolsDurability = 625
+	#Titanium tool mining speed [1-25, default: 6.5]
+	#Range: 1.0 ~ 25.0
+	titaniumToolsSpeed = 6.5
+	#Titanium tool attack damage [1-100, default: 0.5]
+	#Range: 1.0 ~ 100.0
+	titaniumToolsDamage = 1.0
+	#Titanium tool enchantability [0-50, default: 8]
+	#Range: 1 ~ 50
+	titaniumToolsEnchantability = 8
+
+#Hardened Steel Tool Material Values
+[hardened_steel_tool_material]
+	#Hardened Steel tool durability [1-1000, default: 816]
+	#Range: 1 ~ 1000
+	hardenedSteelToolsDurability = 816
+	#Hardened Steel tool mining speed [1-25, default: 6.5]
+	#Range: 1.0 ~ 25.0
+	hardenedSteelToolsSpeed = 6.5
+	#Hardened Steel tool attack damage [1-100, default: 0.5]
+	#Range: 1.0 ~ 100.0
+	hardenedSteelToolsDamage = 1.0
+	#Hardened Steel tool enchantability [0-50, default: 8]
+	#Range: 1 ~ 50
+	hardenedSteelToolsEnchantability = 8
+
+#Tungsten Tool Material Values
+[tungsten_tool_material]
+	#Tungsten tool durability [1-1000, default: 1023]
+	#Range: 1 ~ 1400
+	tungstenToolsDurability = 1023
+	#Tungsten tool mining speed [1-25, default: 6.5]
+	#Range: 1.0 ~ 25.0
+	tungstenToolsSpeed = 6.5
+	#Tungsten tool attack damage [1-100, default: 0.75]
+	#Range: 1.0 ~ 100.0
+	tungstenToolsDamage = 1.0
+	#Tungsten tool enchantability [0-50, default: 8]
+	#Range: 1 ~ 50
+	tungstenToolsEnchantability = 8
+
+#Bronze Armor Material
+[bronze_armor_material]
+	#Bronze armor durability multiplier [1-50, default: 14]
+	#Range: 1 ~ 50
+	bronzeArmorDurabilityMultiplier = 14
+	#Bronze armor enchantability [1-31, default: 15]
+	#Range: 1 ~ 31
+	bronzeArmorEnchantability = 15
+	#Bronze armor toughness [0.0-4.0, default: 0.5]
+	#Range: 0.0 ~ 4.0
+	bronzeArmorToughness = 0.5
+	#Bronze armor knockback resistance [0.0-4.0, default: 0.0]
+	#Range: 0.0 ~ 4.0
+	bronzeArmorKnockbackResistance = 0.0
+	#Bronze armor protection head [1-50, default: 2]
+	#Range: 1 ~ 50
+	bronzeArmorProtectionHead = 2
+	#Bronze armor protection body [1-50, default: 6]
+	#Range: 1 ~ 50
+	bronzeArmorProtectionBody = 6
+	#Bronze armor protection leggings [1-50, default: 5]
+	#Range: 1 ~ 50
+	bronzeArmorProtectionLeggings = 5
+	#Bronze armor protection feet [1-50, default: 2]
+	#Range: 1 ~ 50
+	bronzeArmorProtectionFeet = 2
+
+#Steel Armor Material
+[steel_armor_material]
+	#Steel armor durability multiplier [1-50, default: 19]
+	#Range: 1 ~ 50
+	steelArmorDurabilityMultiplier = 19
+	#Steel armor enchantability [1-31, default: 15]
+	#Range: 1 ~ 31
+	steelArmorEnchantability = 15
+	#Steel armor toughness [0.0-4.0, default: 1.0]
+	#Range: 0.0 ~ 4.0
+	steelArmorToughness = 1.0
+	#Steel armor knockback resistance [0.0-4.0, default: 0.1]
+	#Range: 0.0 ~ 4.0
+	steelArmorKnockbackResistance = 0.1
+	#Steel armor protection head [1-50, default: 3]
+	#Range: 1 ~ 50
+	steelArmorProtectionHead = 3
+	#Steel armor protection body [1-50, default: 7]
+	#Range: 1 ~ 50
+	steelArmorProtectionBody = 7
+	#Steel armor protection leggings [1-50, default: 6]
+	#Range: 1 ~ 50
+	steelArmorProtectionLeggings = 6
+	#Steel armor protection feet [1-50, default: 3]
+	#Range: 1 ~ 50
+	steelArmorProtectionFeet = 3
+
+#Titanium Armor Material
+[titanium_armor_material]
+	#Titanium armor durability multiplier [1-50, default: 22]
+	#Range: 1 ~ 50
+	titaniumArmorDurabilityMultiplier = 22
+	#Titanium armor enchantability [1-31, default: 15]
+	#Range: 1 ~ 31
+	titaniumArmorEnchantability = 15
+	#Titanium armor toughness [0.0-4.0, default: 1.25]
+	#Range: 0.0 ~ 4.0
+	titaniumArmorToughness = 1.25
+	#Titanium armor knockback resistance [0.0-4.0, default: 0.1]
+	#Range: 0.0 ~ 4.0
+	titaniumArmorKnockbackResistance = 0.2
+	#Titanium armor protection head [1-50, default: 3]
+	#Range: 1 ~ 50
+	titaniumArmorProtectionHead = 3
+	#Titanium armor protection body [1-50, default: 7]
+	#Range: 1 ~ 50
+	titaniumArmorProtectionBody = 7
+	#Titanium armor protection leggings [1-50, default: 6]
+	#Range: 1 ~ 50
+	titaniumArmorProtectionLeggings = 6
+	#Titanium armor protection feet [1-50, default: 3]
+	#Range: 1 ~ 50
+	titaniumArmorProtectionFeet = 3
+
+#Hardened Steel Armor Material
+[hardened_steel_armor_material]
+	#Hardened Steel armor durability multiplier [1-50, default: 23]
+	#Range: 1 ~ 50
+	hardenedSteelArmorDurabilityMultiplier = 23
+	#Hardened Steel armor enchantability [1-31, default: 15]
+	#Range: 1 ~ 31
+	hardenedSteelArmorEnchantability = 15
+	#Hardened Steel armor toughness [0.0-4.0, default: 1.5]
+	#Range: 0.0 ~ 4.0
+	hardenedSteelArmorToughness = 1.5
+	#Hardened Steel armor knockback resistance [0.0-4.0, default: 0.1]
+	#Range: 0.0 ~ 4.0
+	hardenedSteelArmorKnockbackResistance = 0.2
+	#Hardened Steel armor protection head [1-50, default: 3]
+	#Range: 1 ~ 50
+	hardenedSteelArmorProtectionHead = 3
+	#Hardened Steel armor protection body [1-50, default: 7]
+	#Range: 1 ~ 50
+	hardenedSteelArmorProtectionBody = 7
+	#Hardened Steel armor protection leggings [1-50, default: 6]
+	#Range: 1 ~ 50
+	hardenedSteelArmorProtectionLeggings = 6
+	#Hardened Steel armor protection feet [1-50, default: 3]
+	#Range: 1 ~ 50
+	hardenedSteelArmorProtectionFeet = 3
+
+#Tungsten Armor Material
+[tungsten_armor_material]
+	#Tungsten armor durability multiplier [1-50, default: 25]
+	#Range: 1 ~ 50
+	tungstenArmorDurabilityMultiplier = 25
+	#Tungsten armor enchantability [1-31, default: 15]
+	#Range: 1 ~ 31
+	tungstenArmorEnchantability = 15
+	#Tungsten armor toughness [0.0-4.0, default: 1.75]
+	#Range: 0.0 ~ 4.0
+	tungstenArmorToughness = 1.75
+	#Tungsten armor knockback resistance [0.0-4.0, default: 0.1]
+	#Range: 0.0 ~ 4.0
+	tungstenArmorKnockbackResistance = 0.3
+	#Tungsten armor protection head [1-50, default: 3]
+	#Range: 1 ~ 50
+	tungstenArmorProtectionHead = 3
+	#Tungsten armor protection body [1-50, default: 8]
+	#Range: 1 ~ 50
+	tungstenArmorProtectionBody = 8
+	#Tungsten armor protection leggings [1-50, default: 6]
+	#Range: 1 ~ 50
+	tungstenArmorProtectionLeggings = 6
+	#Tungsten armor protection feet [1-50, default: 3]
+	#Range: 1 ~ 50
+	tungstenArmorProtectionFeet = 3
+
+#Bow Fov Zoom
+[bow_zoom]
+	#Bow Fov Zoom [0-1, default: .45]
+	#Range: 0.1 ~ 0.9
+	bow_zoom_value = 0.45
+
+#Hammer/Excavator Full Damage
+[full_damage]
+	#Hammer/Excavator Full Damage [true/false, default: true]
+	full_damage = false
+

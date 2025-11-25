@@ -1,0 +1,135 @@
+# TECNILAND Discord Rich Presence Configuration
+
+[general]
+applicationID = 1363345842433556520
+enabled = true
+debugging = false
+configScreen = true
+launcherIntegration = false
+version = 18
+
+[init]
+enabled = true
+description = "⚙️ Cargando TECNILAND..."
+state = "Estableciendo conexión galáctica"
+largeImageKey = ["tecniland_bg"]
+largeImageText = "Iniciando aventura cósmica..."
+smallImageKey = ["tecniland_logo"]
+smallImageText = "Powered by TECNILAND Modpack"
+buttons = []
+
+[main_menu]
+enabled = true
+description = "🌌 %player% navega en el menú"
+state = "Configurando el portal a TECNILAND"
+largeImageKey = ["tecniland_bg"]
+largeImageText = "Bienvenido a TECNILAND"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "100+ mods activos | %mcver%"
+buttons = []
+
+[multi_player]
+enabled = true
+description = "🛸 %player% explora TECNILAND"
+state = "Jugando con %players% viajeros"
+largeImageKey = ["tecniland_bg"]
+largeImageText = "Servidor oficial de TECNILAND"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "Versión %mcver% | %mods% mods activos"
+buttons = []
+
+[single_player]
+enabled = true
+description = "🧭 %player% en modo solitario"
+state = "Descubriendo secretos antiguos..."
+largeImageKey = ["tecniland_bg"]
+largeImageText = "Aventura personal en TECNILAND"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "Mods activos: %mods%"
+buttons = []
+
+[join_game]
+enabled = true
+description = "🚀 %player% está entrando a TECNILAND"
+state = "Sincronizando universos..."
+largeImageKey = ["tecniland_bg"]
+largeImageText = "Preparando exploración multiversal"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "Explorando el espacio-tiempo"
+buttons = []
+
+[server_list]
+enabled = true
+description = "🛰️ %player% escaneando servidores"
+state = "Buscando señales de TECNILAND..."
+largeImageKey = ["tecniland_bg"]
+largeImageText = "Red de portales interdimensionales"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "%mods% mods activos"
+buttons = []
+
+[realms_list]
+enabled = true
+description = "🌐 %player% curioseando Realms"
+state = "¿Dónde estarán sus amigos?"
+largeImageKey = ["tecniland_bg"]
+largeImageText = "Elige tu aventura"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "%mods% mods instalados"
+buttons = []
+
+[realms]
+enabled = true
+description = "🌍 Jugando en el Realm %realmname%"
+state = "Viajando por Realms"
+largeImageKey = ["tecniland_bg"]
+largeImageText = "Jugando en Realm privado"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "%realmdescription%"
+buttons = []
+
+[generic]
+description = "🌟 Explorando TECNILAND"
+state = "Jugando Minecraft modificado"
+largeImageKey = ["tecniland_bg"]
+largeImageText = "TECNILAND: Un mundo único"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "%mods% mods activos"
+buttons = []
+
+[custom]
+enabled = true
+variables = []
+
+[dimension_overrides]
+enabled = true
+
+[[dimension_overrides.dimensions]]
+name = "minecraft:overworld"
+description = "🧭 %player% explora la Superficie"
+state = "Explorando tierras conocidas"
+largeImageKey = ["overworld"]
+largeImageText = "Mundo principal de TECNILAND"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "%mods% mods activos"
+buttons = []
+
+[[dimension_overrides.dimensions]]
+name = "minecraft:the_nether"
+description = "🔥 %player% se ha adentrado al Inframundo"
+state = "Zona prohibida detectada"
+largeImageKey = ["nether"]
+largeImageText = "Una dimensión inestable"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "¡Advertencia dimensional!"
+buttons = []
+
+[[dimension_overrides.dimensions]]
+name = "minecraft:the_end"
+description = "🌑 %player% ha llegado al Final"
+state = "Silencio absoluto..."
+largeImageKey = ["end"]
+largeImageText = "Los secretos del vacío"
+smallImageKey = ["tecniland_logo"]
+smallImageText = "Dimensión final"
+buttons = []

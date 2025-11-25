@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones_de_magia_y_ritual_1120"
+	group: "189089200EC7B98C"
+	icon: {
+		Count: 1
+		id: "born_in_chaos_v1:staff_of_magic_arrows"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1D9657F4A406DE42"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Construye un círculo ritual completo con velas, runas o símbolos, usando mods o decoración. No debe tener explicación lógica… solo mística."]
+			icon: "supplementaries:candle_holder_black"
+			id: "2EE086632538AC21"
+			rewards: [
+				{
+					count: 5
+					id: "4AD50BE15A344110"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					id: "1C9E5ADC69FFB6CD"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "56DBFAEF5339CE67"
+					title: "El Círculo de Invocación"
+					type: "checkmark"
+				}
+				{
+					id: "11407921649A0B2B"
+					item: "minecraft:black_candle"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			description: ["&l

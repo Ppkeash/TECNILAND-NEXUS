@@ -1,0 +1,346 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones_de_combate_y_cacera_6170"
+	group: "189089200EC7B98C"
+	id: "7389A75B89603A18"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Construye un coliseo o sala de combate para batallas entre jugadores o contra mobs. Decóralo como si fuese un escenario legendario."]
+			id: "20AD0A64C6EBF844"
+			rewards: [
+				{
+					count: 10
+					id: "2F6658C8B32303D3"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "56D56E6749201D10"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "botania:cosmetic_hyper_plus"
+				id: "7375BB1A649A73CF"
+				title: "Arena del Valor"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["Caza un mob especialmente raro o poderoso y exhibe una parte de él (cabeza, drop, imagen, estatua) como trofeo en tu base."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:echolocator"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "15C0FE8B758982E8"
+			rewards: [
+				{
+					count: 10
+					id: "76C5FA49ADC0F7E2"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "399F2F8435603CCA"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:blood_sprayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7C31195E1005AA21"
+				title: "Trofeo de la Bestia"
+				type: "custom"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: ["Reta a otro jugador a un combate simbólico. El perdedor debe escribir una frase de respeto o dejar un objeto personal en el suelo."]
+			id: "032954062F5C045A"
+			rewards: [
+				{
+					count: 10
+					id: "34E465183EFBF465"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0E88A88E07B67C26"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "soulsweapons:crucible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1ADAF9482D1495EB"
+				title: "Duelo de Honor"
+				type: "custom"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: ["Sobrevive una noche entera rodeado de mobs sin usar armadura ni refugio. Solo comida, espada y tu voluntad."]
+			id: "005A1E9F26F19A54"
+			rewards: [
+				{
+					count: 10
+					id: "12420F5691C3B529"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "628502055FB49406"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "voidscape:astral_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5094E9F878796F84"
+				title: "Entrenamiento Extremo"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			description: ["Acepta una “misión” de otro jugador: eliminar cierto tipo de mob, vengarlo o escoltarlo hasta una zona segura."]
+			id: "04A29B8AC1AE0FC2"
+			rewards: [
+				{
+					count: 10
+					id: "367146D4380D21B9"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "336910DB6F403843"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:blaze_powder"
+				id: "0564ECA099EAC4B2"
+				title: "Cazador de Contrato"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			description: ["Defiende un lugar importante (base, estructura compartida, monumento) de una oleada de mobs. Puedes simularlo o coordinarlo como evento"]
+			id: "6A1468A482D56BAB"
+			rewards: [
+				{
+					count: 30
+					id: "01F2303584EF39A5"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "6D3AB5D7C5CD5BF8"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "spartanshields:diamond_basic_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "43B808789C857C67"
+				title: "Defensa de la Frontera"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Organiza un asalto a una torre, fortaleza o dungeon (real o construida). Entra, sobrevive, y deja una marca de que estuviste ahí."]
+			id: "03D3F56046AC2130"
+			rewards: [
+				{
+					count: 20
+					id: "655A030EB6042474"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "270423A3D0FAB055"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "netherexp:ancient_campfire"
+				id: "06E31A1A3F67AA1E"
+				title: "El Asedio Perfecto"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Crea una armadura, escudo o espada especial y rolea que fue ganada en batalla. No puedes usarla hasta completar una prueba personal."]
+			id: "4314BBCDB3804C92"
+			rewards: [
+				{
+					count: 15
+					id: "347A24CCE38D2CB1"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "20C4042E4BFB3A7D"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							defaultDurability: 15
+							durability: 15
+							infinite: 0b
+							maxDurability: 1000
+							maxRepairs: 0
+							repairs: 0
+						}
+					}
+					id: "treasure2:ember_key"
+					tag: {
+						Damage: 0
+						"treasure2:durability": {
+							defaultDurability: 15
+							durability: 15
+							infinite: 0b
+							maxDurability: 1000
+							maxRepairs: 0
+							repairs: 0
+						}
+					}
+				}
+				id: "2ACD17D9C0A9E984"
+				title: "La Reliquia de Guerra"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Lucha solo contra una horda o miniboss. Sin ayuda, sin curaciones externas. Solo tú y tu bestia interior."]
+			id: "5C059DD4C84CA966"
+			rewards: [
+				{
+					count: 8
+					id: "1E117F7A9D39215A"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+				{
+					count: 14
+					id: "05B13BB8DB202558"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "lrarmor:sniper_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "29B8D1D83130F922"
+				title: "Lobo Solitario"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: ["Participa en un evento o crea uno: combate amistoso, circuito PvP, desafío por eliminación. Anota a los ganadores y crea un mural.Participa en un evento o crea uno: combate amistoso, circuito PvP, desafío por eliminación. Anota a los ganadores y crea un mural."]
+			id: "730C31EC8EF5FF35"
+			rewards: [
+				{
+					count: 20
+					id: "4254833C5B243D98"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "7150BE973861EA52"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+				{
+					id: "7E285ED792A83533"
+					item: {
+						Count: 1
+						id: "theabyss:ignisithe_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 4.0d
+			tasks: [{
+				icon: "dungeons_and_combat:molten_smithing_template"
+				id: "6FD4327F35CBB329"
+				title: " El Torneo de TECNILAND"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "Misiones de Combate y Cacería (61–70)"
+}

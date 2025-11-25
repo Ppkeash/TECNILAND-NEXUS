@@ -1,0 +1,155 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = connect_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1745168889503
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:02a70237-f3d8-4f4b-b755-6c8ba3b58800-1745168878007] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 2.0
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 4edf2e13-3f6c-43f4-a4a8-7992ba27f99b-1745168761644
+  [executable_block:4edf2e13-3f6c-43f4-a4a8-7992ba27f99b-1745168761644][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/tecniland_bts_.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/tecniland_bts_contr.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 15a9a06f-d68b-4ce8-b780-27fd0f33c4be-1745168761644
+  [loading_requirement_container_meta:15a9a06f-d68b-4ce8-b780-27fd0f33c4be-1745168761644] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = vanilla_button
+  instance_identifier = 400382
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 380
+  y = 267
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = f82ab531-6386-4846-a19a-a2e0d94dce9c-1745168761644
+  [loading_requirement_container_meta:f82ab531-6386-4846-a19a-a2e0d94dce9c-1745168761644] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 06b79969-ce4d-4217-8b69-92267fdd4f25-1745168761644
+  [executable_block:06b79969-ce4d-4217-8b69-92267fdd4f25-1745168761644][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = &a&lCONECTANDO A TECNILAND...
+  navigatable = true
+  widget_active_state_requirement_container_identifier = e6f06238-1376-490d-a208-9d250abc338f-1745168761644
+  [loading_requirement_container_meta:e6f06238-1376-490d-a208-9d250abc338f-1745168761644] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = vanilla_button
+  instance_identifier = status
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -102
+  y = -50
+  width = 200
+  height = 9
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 155b5714-f80b-45b4-99d3-96e415d2def8-1745168761644
+  [loading_requirement_container_meta:155b5714-f80b-45b4-99d3-96e415d2def8-1745168761644] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  is_hidden = false
+  automated_button_clicks = 0
+}
+

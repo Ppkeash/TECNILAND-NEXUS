@@ -1,0 +1,2916 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "754031513036783737",
+    "smallImageText": "TECNILAND Nexus",
+    "smallImageKey": "tecniland-logo"
+  },
+  "rss": null,
+  "servers": [
+    {
+      "id": "TECNILAND_OG",
+      "name": "TECNILAND OG",
+      "description": "Modpack Forge 1.20.1 personalizado",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "127.0.0.1:25565",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "javaOptions": {
+        "supported": ">=17",
+        "suggestedMajor": 17,
+        "ram": {
+          "recommended": 4096,
+          "minimum": 2048
+        }
+      },
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.3.0",
+          "name": "Minecraft Forge 1.20.1-47.3.0",
+          "type": "ForgeHosted",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 89000000,
+            "MD5": "",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "mod:tecniland:alexscaves-2.0.2:1.0",
+          "name": "alexscaves-2.0.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 74871657,
+            "MD5": "6c8793ee5e1aa852fdb430a9cdaccdc5",
+            "path": "mods/alexscaves-2.0.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/alexscaves-2.0.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:alexsmobs-1.22.9:1.0",
+          "name": "alexsmobs-1.22.9.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 26350793,
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6",
+            "path": "mods/alexsmobs-1.22.9.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/alexsmobs-1.22.9.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:alexsmobsinteraction-5.4-all:1.0",
+          "name": "alexsmobsinteraction-5.4-all.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 6952315,
+            "MD5": "d76d27d426b08d9ff7c187ac4b290c6c",
+            "path": "mods/alexsmobsinteraction-5.4-all.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/alexsmobsinteraction-5.4-all.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Animation_Overhaul-forge-1.20.x-1.3.1:1.0",
+          "name": "Animation_Overhaul-forge-1.20.x-1.3.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 270915,
+            "MD5": "0e016f6094a766eb5b82c0586343f46f",
+            "path": "mods/Animation_Overhaul-forge-1.20.x-1.3.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Animation_Overhaul-forge-1.20.x-1.3.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:annihilation-recreated-r1.1.1_mc1.20.1:1.0",
+          "name": "annihilation-recreated-r1.1.1_mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 15070673,
+            "MD5": "fe3dead6670f7d4532070f69fcaf0e57",
+            "path": "mods/annihilation-recreated-r1.1.1_mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/annihilation-recreated-r1.1.1_mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:appleskin-forge-mc1.20.1-2.5.1:1.0",
+          "name": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 47428,
+            "MD5": "dae63cea9c951dda542a4005ceef3953",
+            "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/appleskin-forge-mc1.20.1-2.5.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Aquaculture-1.20.1-2.5.5:1.0",
+          "name": "Aquaculture-1.20.1-2.5.5.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 601173,
+            "MD5": "515dde53d77858310af77cd93a5d1316",
+            "path": "mods/Aquaculture-1.20.1-2.5.5.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Aquaculture-1.20.1-2.5.5.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:aquaculturedelight-1.1.1-forge-1.20.1:1.0",
+          "name": "aquaculturedelight-1.1.1-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 225149,
+            "MD5": "e1aa5ae3c8f5ceafbda9298804d9daaf",
+            "path": "mods/aquaculturedelight-1.1.1-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/aquaculturedelight-1.1.1-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:aquamirae-6.API15:1.0",
+          "name": "aquamirae-6.API15.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 17317836,
+            "MD5": "e8ed829ef58a231fd8f41003fa8f4e1b",
+            "path": "mods/aquamirae-6.API15.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/aquamirae-6.API15.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:aquamirae_delight-1.5.2-forge-1.20.1:1.0",
+          "name": "aquamirae_delight-1.5.2-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 202434,
+            "MD5": "c5f36044be23c8c6eb6e736c0ae93f63",
+            "path": "mods/aquamirae_delight-1.5.2-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/aquamirae_delight-1.5.2-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:architectury-9.2.14-forge:1.0",
+          "name": "architectury-9.2.14-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 580602,
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5",
+            "path": "mods/architectury-9.2.14-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/architectury-9.2.14-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ArmageddonMod for 1.20.1 (v1.5.2):1.0",
+          "name": "ArmageddonMod for 1.20.1 (v1.5.2).jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 9098629,
+            "MD5": "363837352809b1f93d96aea4ada28618",
+            "path": "mods/ArmageddonMod for 1.20.1 (v1.5.2).jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ArmageddonMod for 1.20.1 (v1.5.2).jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:armourersworkshop-forge-1.20.1-2.1.4:1.0",
+          "name": "armourersworkshop-forge-1.20.1-2.1.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3565266,
+            "MD5": "3d720853815f7ed3c77e6bdab1e9e250",
+            "path": "mods/armourersworkshop-forge-1.20.1-2.1.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/armourersworkshop-forge-1.20.1-2.1.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ArPhEx-4.5-forge-1.20.1:1.0",
+          "name": "ArPhEx-4.5-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 9905077,
+            "MD5": "413811b1a548a7b93b02dc034fd289cd",
+            "path": "mods/ArPhEx-4.5-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ArPhEx-4.5-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:artifacts-forge-9.5.16:1.0",
+          "name": "artifacts-forge-9.5.16.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 850457,
+            "MD5": "85081468e7498005f5dfdab2ae520097",
+            "path": "mods/artifacts-forge-9.5.16.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/artifacts-forge-9.5.16.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:assetsprotector-1.0.0:1.0",
+          "name": "assetsprotector-1.0.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 10009,
+            "MD5": "b691e487a2931fced113eaba59f7c1d2",
+            "path": "mods/assetsprotector-1.0.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/assetsprotector-1.0.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:AttributeFix-Forge-1.20.1-21.0.4:1.0",
+          "name": "AttributeFix-Forge-1.20.1-21.0.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 19471,
+            "MD5": "e8fb517833e21335106e9d4d1a39ecd4",
+            "path": "mods/AttributeFix-Forge-1.20.1-21.0.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/AttributeFix-Forge-1.20.1-21.0.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:balm-forge-1.20.1-7.3.27-all:1.0",
+          "name": "balm-forge-1.20.1-7.3.27-all.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 475315,
+            "MD5": "f602ed9d2c722942623165fec6eb538f",
+            "path": "mods/balm-forge-1.20.1-7.3.27-all.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/balm-forge-1.20.1-7.3.27-all.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:bettercombat-forge-1.8.6+1.20.1:1.0",
+          "name": "bettercombat-forge-1.8.6+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1050118,
+            "MD5": "28f4682af86e8bdee7b808fa0adbdf81",
+            "path": "mods/bettercombat-forge-1.8.6+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/bettercombat-forge-1.8.6+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:betterfpsdist-1.20.1-6.0:1.0",
+          "name": "betterfpsdist-1.20.1-6.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 19917,
+            "MD5": "34280e25bfb67f8ce08157129c8cb09d",
+            "path": "mods/betterfpsdist-1.20.1-6.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/betterfpsdist-1.20.1-6.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:BiomesOPlenty-forge-1.20.1-19.0.0.96:1.0",
+          "name": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 22381010,
+            "MD5": "886b3d33f1e7dca2a937ec5c5dc19af8",
+            "path": "mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:BOMD-Forge-1.20.1-1.1.1:1.0",
+          "name": "BOMD-Forge-1.20.1-1.1.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1751110,
+            "MD5": "0146d6faf2227e7f33eafb83a7fea180",
+            "path": "mods/BOMD-Forge-1.20.1-1.1.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/BOMD-Forge-1.20.1-1.1.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Bookshelf-Forge-1.20.1-20.2.13:1.0",
+          "name": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 343962,
+            "MD5": "46c8e7f9bcfa984bd576e448df2beb25",
+            "path": "mods/Bookshelf-Forge-1.20.1-20.2.13.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Bookshelf-Forge-1.20.1-20.2.13.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:born_in_chaos_[Forge]1.20.1_1.6.3:1.0",
+          "name": "born_in_chaos_[Forge]1.20.1_1.6.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 11461409,
+            "MD5": "b02cb6b842bf7891aa9963e6460a4623",
+            "path": "mods/born_in_chaos_[Forge]1.20.1_1.6.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/born_in_chaos_[Forge]1.20.1_1.6.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Botania-1.20.1-448-FORGE:1.0",
+          "name": "Botania-1.20.1-448-FORGE.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 12471821,
+            "MD5": "993f29f2034c122d78a4a97c654364e2",
+            "path": "mods/Botania-1.20.1-448-FORGE.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Botania-1.20.1-448-FORGE.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:caelus-forge-3.2.0+1.20.1:1.0",
+          "name": "caelus-forge-3.2.0+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 40125,
+            "MD5": "e37854c44b1849b753afc4a205f31b46",
+            "path": "mods/caelus-forge-3.2.0+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/caelus-forge-3.2.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:camera-forge-1.20.1-1.0.19:1.0",
+          "name": "camera-forge-1.20.1-1.0.19.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 300166,
+            "MD5": "0b3a8abb44e6f67fedd25a4c0387ace3",
+            "path": "mods/camera-forge-1.20.1-1.0.19.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/camera-forge-1.20.1-1.0.19.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:cameraoverhaul-1.1-1.20.4:1.0",
+          "name": "cameraoverhaul-1.1-1.20.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 42107,
+            "MD5": "dddb535621990bdab2fe9a9accf6e7c9",
+            "path": "mods/cameraoverhaul-1.1-1.20.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/cameraoverhaul-1.1-1.20.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:carryon-forge-1.20.1-2.1.2.7:1.0",
+          "name": "carryon-forge-1.20.1-2.1.2.7.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 439457,
+            "MD5": "8956b37c2ae11cc5522c8404a262c6b7",
+            "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/carryon-forge-1.20.1-2.1.2.7.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:castle_in_the_sky-1.20.1-0.6.0:1.0",
+          "name": "castle_in_the_sky-1.20.1-0.6.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 4181108,
+            "MD5": "ec0117c5513ccad18a476faa3b8ed156",
+            "path": "mods/castle_in_the_sky-1.20.1-0.6.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/castle_in_the_sky-1.20.1-0.6.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:CerbonsApi-Forge-1.20.1-1.0.0:1.0",
+          "name": "CerbonsApi-Forge-1.20.1-1.0.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 134593,
+            "MD5": "d13c2aa14e9c1faea383969af3b81a3a",
+            "path": "mods/CerbonsApi-Forge-1.20.1-1.0.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/CerbonsApi-Forge-1.20.1-1.0.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:chisel-forge-2.0.0+mc1.20.1:1.0",
+          "name": "chisel-forge-2.0.0+mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 8265809,
+            "MD5": "468657845ffc4f5eed8e1d3ad22933af",
+            "path": "mods/chisel-forge-2.0.0+mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/chisel-forge-2.0.0+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:chloride-FORGE-mc1.20.1-v1.5.5:1.0",
+          "name": "chloride-FORGE-mc1.20.1-v1.5.5.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 897181,
+            "MD5": "b9d1e70b3d42586cbb249f4ad3c8f396",
+            "path": "mods/chloride-FORGE-mc1.20.1-v1.5.5.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/chloride-FORGE-mc1.20.1-v1.5.5.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Chunky-1.3.146:1.0",
+          "name": "Chunky-1.3.146.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 341451,
+            "MD5": "ed46120ac4f30ec8e03f6416e295577c",
+            "path": "mods/Chunky-1.3.146.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Chunky-1.3.146.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:citadel-2.6.1-1.20.1:1.0",
+          "name": "citadel-2.6.1-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3173637,
+            "MD5": "d7c8be4b34cfd4db20ad1747b122d07c",
+            "path": "mods/citadel-2.6.1-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/citadel-2.6.1-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:cloth-config-11.1.136-forge:1.0",
+          "name": "cloth-config-11.1.136-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1181413,
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53",
+            "path": "mods/cloth-config-11.1.136-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/cloth-config-11.1.136-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Clumps-forge-1.20.1-12.0.0.4:1.0",
+          "name": "Clumps-forge-1.20.1-12.0.0.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 20299,
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975",
+            "path": "mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Clumps-forge-1.20.1-12.0.0.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:collective-1.20.1-8.3:1.0",
+          "name": "collective-1.20.1-8.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 657310,
+            "MD5": "5b0b99ac79f68438ee0133ff6dfd53c5",
+            "path": "mods/collective-1.20.1-8.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/collective-1.20.1-8.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:combatroll-forge-1.3.3+1.20.1:1.0",
+          "name": "combatroll-forge-1.3.3+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 217962,
+            "MD5": "ad3316d461ca579585df7507ac789d85",
+            "path": "mods/combatroll-forge-1.3.3+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/combatroll-forge-1.3.3+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:comforts-forge-6.4.0+1.20.1:1.0",
+          "name": "comforts-forge-6.4.0+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 382083,
+            "MD5": "a88fcc168de1a0f9b2ae4e7cbe8a8408",
+            "path": "mods/comforts-forge-6.4.0+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/comforts-forge-6.4.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:configured-forge-1.20.1-2.2.3:1.0",
+          "name": "configured-forge-1.20.1-2.2.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 418929,
+            "MD5": "9380dc31c599c523a5682a4025fceb92",
+            "path": "mods/configured-forge-1.20.1-2.2.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/configured-forge-1.20.1-2.2.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:connectedglass-1.1.13-forge-mc1.20.1:1.0",
+          "name": "connectedglass-1.1.13-forge-mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 871676,
+            "MD5": "13b280c06f47dddb474bbc1b398d6d3b",
+            "path": "mods/connectedglass-1.1.13-forge-mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/connectedglass-1.1.13-forge-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Controlling-forge-1.20.1-12.0.2:1.0",
+          "name": "Controlling-forge-1.20.1-12.0.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 115280,
+            "MD5": "952274bc9994bba9733e8747558f73fa",
+            "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Controlling-forge-1.20.1-12.0.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:cookingforblockheads-forge-1.20.1-16.0.13:1.0",
+          "name": "cookingforblockheads-forge-1.20.1-16.0.13.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 837248,
+            "MD5": "72838cbe744af26e4f9ab8992b2f5796",
+            "path": "mods/cookingforblockheads-forge-1.20.1-16.0.13.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/cookingforblockheads-forge-1.20.1-16.0.13.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:cosmeticarmorreworked-1.20.1-v1a:1.0",
+          "name": "cosmeticarmorreworked-1.20.1-v1a.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 88752,
+            "MD5": "2454075e9a25cbadc0fce66502e3261d",
+            "path": "mods/cosmeticarmorreworked-1.20.1-v1a.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/cosmeticarmorreworked-1.20.1-v1a.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:CosmeticArmours - 1.5.2.1 - 1.20.1 - Forge:1.0",
+          "name": "CosmeticArmours - 1.5.2.1 - 1.20.1 - Forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 16255279,
+            "MD5": "5f5bc95c069a44763e498452321b3d2d",
+            "path": "mods/CosmeticArmours - 1.5.2.1 - 1.20.1 - Forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/CosmeticArmours - 1.5.2.1 - 1.20.1 - Forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:CraterLib-Forge-1.20-2.1.4:1.0",
+          "name": "CraterLib-Forge-1.20-2.1.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2011411,
+            "MD5": "5d3b63047e872277081efe642c30985c",
+            "path": "mods/CraterLib-Forge-1.20-2.1.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/CraterLib-Forge-1.20-2.1.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:crawlondemand-1.20.x-1.0.0:1.0",
+          "name": "crawlondemand-1.20.x-1.0.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 17443,
+            "MD5": "a87fad12265b734155e92ab1259a6a34",
+            "path": "mods/crawlondemand-1.20.x-1.0.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/crawlondemand-1.20.x-1.0.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:create-1.20.1-6.0.4:1.0",
+          "name": "create-1.20.1-6.0.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 18463134,
+            "MD5": "9d274d57a664ae35e6efbef8595bcc29",
+            "path": "mods/create-1.20.1-6.0.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/create-1.20.1-6.0.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:CreativeCore_FORGE_v2.12.32_mc1.20.1:1.0",
+          "name": "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1158417,
+            "MD5": "7aabe100af362d0df92d8ea1dbc2667b",
+            "path": "mods/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:cryonicconfig-forge-1.0.0+mc1.20.1:1.0",
+          "name": "cryonicconfig-forge-1.0.0+mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 133781,
+            "MD5": "60ab26361727a2712bb9f5ffd72226c2",
+            "path": "mods/cryonicconfig-forge-1.0.0+mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/cryonicconfig-forge-1.0.0+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:cupboard-1.20.1-2.7:1.0",
+          "name": "cupboard-1.20.1-2.7.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 25983,
+            "MD5": "3620912474f47bf58d1fe5bfe133763a",
+            "path": "mods/cupboard-1.20.1-2.7.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/cupboard-1.20.1-2.7.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:curios-forge-5.14.1+1.20.1:1.0",
+          "name": "curios-forge-5.14.1+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 398066,
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159",
+            "path": "mods/curios-forge-5.14.1+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/curios-forge-5.14.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:CustomNPCs-1.20.1-GBPort-Unofficial-20240824:1.0",
+          "name": "CustomNPCs-1.20.1-GBPort-Unofficial-20240824.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 10773118,
+            "MD5": "c8572b478b38bfa68eefc361cbc8e1c9",
+            "path": "mods/CustomNPCs-1.20.1-GBPort-Unofficial-20240824.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/CustomNPCs-1.20.1-GBPort-Unofficial-20240824.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:darksleep-forge-1.20.1-1.0.0:1.0",
+          "name": "darksleep-forge-1.20.1-1.0.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 6479,
+            "MD5": "35b5bc1e997a7b85f751f9ca3c4bda78",
+            "path": "mods/darksleep-forge-1.20.1-1.0.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/darksleep-forge-1.20.1-1.0.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:discord_chat_mod-forge-1.20.1-2.4.9:1.0",
+          "name": "discord_chat_mod-forge-1.20.1-2.4.9.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 24762830,
+            "MD5": "c02841ae091a8fa0324c695d0605f988",
+            "path": "mods/discord_chat_mod-forge-1.20.1-2.4.9.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/discord_chat_mod-forge-1.20.1-2.4.9.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:DoggyTalentsNext-1.20.1-1.18.46:1.0",
+          "name": "DoggyTalentsNext-1.20.1-1.18.46.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 11042049,
+            "MD5": "1f4738244f40afb7fd89fd63c9674b45",
+            "path": "mods/DoggyTalentsNext-1.20.1-1.18.46.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/DoggyTalentsNext-1.20.1-1.18.46.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:drippyloadingscreen_forge_3.0.12_MC_1.20.1:1.0",
+          "name": "drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 239365,
+            "MD5": "a8cbcca4541cb6eb794ded4a10c57ac9",
+            "path": "mods/drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Dungeon Crawl-1.20.1-2.3.15:1.0",
+          "name": "Dungeon Crawl-1.20.1-2.3.15.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 758123,
+            "MD5": "f53b840d17a5805630ec199087babe4b",
+            "path": "mods/Dungeon Crawl-1.20.1-2.3.15.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Dungeon Crawl-1.20.1-2.3.15.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:dungeons_and_combat-1.1.5-forge-1.20.1:1.0",
+          "name": "dungeons_and_combat-1.1.5-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 10837694,
+            "MD5": "28ee7b9774112ade41ddd85b20d99b10",
+            "path": "mods/dungeons_and_combat-1.1.5-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/dungeons_and_combat-1.1.5-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:dungeons_enhanced-1.20.1-5.3.0:1.0",
+          "name": "dungeons_enhanced-1.20.1-5.3.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1395850,
+            "MD5": "279f2910b0eef042cc08755244c075d7",
+            "path": "mods/dungeons_enhanced-1.20.1-5.3.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/dungeons_enhanced-1.20.1-5.3.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:dynamic-fps-3.9.3+minecraft-1.20.0-forge:1.0",
+          "name": "dynamic-fps-3.9.3+minecraft-1.20.0-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 374145,
+            "MD5": "46d4403ec8ea7c5d08445cbfabbdbb86",
+            "path": "mods/dynamic-fps-3.9.3+minecraft-1.20.0-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/dynamic-fps-3.9.3+minecraft-1.20.0-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:DynamicTrees-1.20.1-1.4.2:1.0",
+          "name": "DynamicTrees-1.20.1-1.4.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3719335,
+            "MD5": "1c2c8e3fce2c97aafe4b38be86d45f98",
+            "path": "mods/DynamicTrees-1.20.1-1.4.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/DynamicTrees-1.20.1-1.4.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:DynamicTreesBOP-1.20.1-3.3.2:1.0",
+          "name": "DynamicTreesBOP-1.20.1-3.3.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 411530,
+            "MD5": "79a79adeb195c1baeb063ec154f61912",
+            "path": "mods/DynamicTreesBOP-1.20.1-3.3.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/DynamicTreesBOP-1.20.1-3.3.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:EasySteel-Forge-1.20.1-1.7.9:1.0",
+          "name": "EasySteel-Forge-1.20.1-1.7.9.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 359304,
+            "MD5": "207c3fcf122c63e2b10069985508eab9",
+            "path": "mods/EasySteel-Forge-1.20.1-1.7.9.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/EasySteel-Forge-1.20.1-1.7.9.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:eidolon_repraised-1.20.1-0.3.8.15:1.0",
+          "name": "eidolon_repraised-1.20.1-0.3.8.15.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3821321,
+            "MD5": "b0791ffdb05bd8937c99835ddbf00160",
+            "path": "mods/eidolon_repraised-1.20.1-0.3.8.15.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/eidolon_repraised-1.20.1-0.3.8.15.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:elevatorid-1.20.1-lex-1.9:1.0",
+          "name": "elevatorid-1.20.1-lex-1.9.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 188132,
+            "MD5": "35c05c6c14993fe3fb38917ce09f51b8",
+            "path": "mods/elevatorid-1.20.1-lex-1.9.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/elevatorid-1.20.1-lex-1.9.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ElysiumApi-1.20.1-1.1.0:1.0",
+          "name": "ElysiumApi-1.20.1-1.1.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 105584,
+            "MD5": "b27829778266c387db1f04b10fcf6336",
+            "path": "mods/ElysiumApi-1.20.1-1.1.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ElysiumApi-1.20.1-1.1.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:embeddium-0.3.31+mc1.20.1:1.0",
+          "name": "embeddium-0.3.31+mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1320675,
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7",
+            "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/embeddium-0.3.31+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:EnchantmentDescriptions-Forge-1.20.1-17.1.19:1.0",
+          "name": "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 69476,
+            "MD5": "445422556264d2129fde704f35d9680f",
+            "path": "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:entityculling-forge-1.7.4-mc1.20.1:1.0",
+          "name": "entityculling-forge-1.7.4-mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 75290,
+            "MD5": "a6bc8ba692b23fac2aa0e6d3afad47cf",
+            "path": "mods/entityculling-forge-1.7.4-mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/entityculling-forge-1.7.4-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ExtraSoundsNext-forge-1.20.1-1.4:1.0",
+          "name": "ExtraSoundsNext-forge-1.20.1-1.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 220040,
+            "MD5": "a7a4a78be691206fd0d60e4fd72fd07e",
+            "path": "mods/ExtraSoundsNext-forge-1.20.1-1.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ExtraSoundsNext-forge-1.20.1-1.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:EyesInTheDarkness-1.20.1-1.3.10:1.0",
+          "name": "EyesInTheDarkness-1.20.1-1.3.10.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 279244,
+            "MD5": "1280b51aaec511722d6c10b066d112cd",
+            "path": "mods/EyesInTheDarkness-1.20.1-1.3.10.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/EyesInTheDarkness-1.20.1-1.3.10.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:fairylights-7.0.0-1.20.1:1.0",
+          "name": "fairylights-7.0.0-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 821317,
+            "MD5": "007ccd44927fee58df78cdd8310330f4",
+            "path": "mods/fairylights-7.0.0-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/fairylights-7.0.0-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:fallingleaves-1.20.1-2.1.2:1.0",
+          "name": "fallingleaves-1.20.1-2.1.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 124212,
+            "MD5": "721d92a83d7518e8515dbd499eda03cd",
+            "path": "mods/fallingleaves-1.20.1-2.1.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/fallingleaves-1.20.1-2.1.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:fancymenu_forge_3.5.0_MC_1.20.1:1.0",
+          "name": "fancymenu_forge_3.5.0_MC_1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3280422,
+            "MD5": "4da459780fb51757bd0e467460c01e63",
+            "path": "mods/fancymenu_forge_3.5.0_MC_1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/fancymenu_forge_3.5.0_MC_1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:fantasyfurniture-1.20.1-9.0.0:1.0",
+          "name": "fantasyfurniture-1.20.1-9.0.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3202951,
+            "MD5": "0712007756c04d20100121c31510d346",
+            "path": "mods/fantasyfurniture-1.20.1-9.0.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/fantasyfurniture-1.20.1-9.0.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:FarmersDelight-1.20.1-1.2.7:1.0",
+          "name": "FarmersDelight-1.20.1-1.2.7.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2954263,
+            "MD5": "a91b9909757a8fa36303eef730033c7b",
+            "path": "mods/FarmersDelight-1.20.1-1.2.7.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/FarmersDelight-1.20.1-1.2.7.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ferritecore-6.0.1-forge:1.0",
+          "name": "ferritecore-6.0.1-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 123034,
+            "MD5": "f52f538207a4829d7060550092ce2383",
+            "path": "mods/ferritecore-6.0.1-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ferritecore-6.0.1-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:FpsReducer2-forge-1.20-2.5:1.0",
+          "name": "FpsReducer2-forge-1.20-2.5.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 125347,
+            "MD5": "667e0ad36f07af69e285d47624b1d084",
+            "path": "mods/FpsReducer2-forge-1.20-2.5.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/FpsReducer2-forge-1.20-2.5.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:framework-forge-1.20.1-0.7.12:1.0",
+          "name": "framework-forge-1.20.1-0.7.12.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 308420,
+            "MD5": "1b6b6ccc60c5a6ef2c232553f8a060f4",
+            "path": "mods/framework-forge-1.20.1-0.7.12.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/framework-forge-1.20.1-0.7.12.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ftb-essentials-forge-2001.2.2:1.0",
+          "name": "ftb-essentials-forge-2001.2.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 155952,
+            "MD5": "af57dc19d6a359ba3eb59494026bca8d",
+            "path": "mods/ftb-essentials-forge-2001.2.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ftb-essentials-forge-2001.2.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ftb-library-forge-2001.2.9:1.0",
+          "name": "ftb-library-forge-2001.2.9.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 791841,
+            "MD5": "cdf8b270d3ee2c403a26206b10e0a749",
+            "path": "mods/ftb-library-forge-2001.2.9.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ftb-library-forge-2001.2.9.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ftb-quests-forge-2001.4.13:1.0",
+          "name": "ftb-quests-forge-2001.4.13.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1215007,
+            "MD5": "182d3bc7450d50ba9b71e5a08e903d9e",
+            "path": "mods/ftb-quests-forge-2001.4.13.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ftb-quests-forge-2001.4.13.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ftb-teams-forge-2001.3.1:1.0",
+          "name": "ftb-teams-forge-2001.3.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 248592,
+            "MD5": "98efb58ba7cecfb39034544eced0389f",
+            "path": "mods/ftb-teams-forge-2001.3.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ftb-teams-forge-2001.3.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:fusion-1.2.7-forge-mc1.20.1:1.0",
+          "name": "fusion-1.2.7-forge-mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 540017,
+            "MD5": "f41b4a5640311fe6a7700657173f7196",
+            "path": "mods/fusion-1.2.7-forge-mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/fusion-1.2.7-forge-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:fzzy_config-0.6.9+1.20.1+forge:1.0",
+          "name": "fzzy_config-0.6.9+1.20.1+forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2158962,
+            "MD5": "ed89b0cc00e3cf711112aba8ad0c58ba",
+            "path": "mods/fzzy_config-0.6.9+1.20.1+forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/fzzy_config-0.6.9+1.20.1+forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:geckolib-forge-1.20.1-4.7.1.2:1.0",
+          "name": "geckolib-forge-1.20.1-4.7.1.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1012500,
+            "MD5": "cd951c81b5551b8a3f215a825d2934fa",
+            "path": "mods/geckolib-forge-1.20.1-4.7.1.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/geckolib-forge-1.20.1-4.7.1.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:GlitchCore-forge-1.20.1-0.0.1.1:1.0",
+          "name": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 87550,
+            "MD5": "6d24b09db12acdab40437a1929259352",
+            "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/GlitchCore-forge-1.20.1-0.0.1.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:goblintraders-forge-1.20.1-1.9.3:1.0",
+          "name": "goblintraders-forge-1.20.1-1.9.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 320235,
+            "MD5": "acbba033aadeecf04cd702aca05c02d4",
+            "path": "mods/goblintraders-forge-1.20.1-1.9.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/goblintraders-forge-1.20.1-1.9.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:gottschcore-1.20.1-2.3.0:1.0",
+          "name": "gottschcore-1.20.1-2.3.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 181793,
+            "MD5": "743504d92619937d529259aa89cefb8b",
+            "path": "mods/gottschcore-1.20.1-2.3.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/gottschcore-1.20.1-2.3.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:hiddennames-1.20.1-1.0.6:1.0",
+          "name": "hiddennames-1.20.1-1.0.6.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 47190,
+            "MD5": "c1b8c0f021acffc102b9a56ada733ab3",
+            "path": "mods/hiddennames-1.20.1-1.0.6.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/hiddennames-1.20.1-1.0.6.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:idas_forge-1.11.1+1.20.1:1.0",
+          "name": "idas_forge-1.11.1+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 14074826,
+            "MD5": "e3a490659fa03a7b7d239692083d986d",
+            "path": "mods/idas_forge-1.11.1+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/idas_forge-1.11.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:idle_boost-forge-1.2.0+1.20.1:1.0",
+          "name": "idle_boost-forge-1.2.0+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 25144,
+            "MD5": "8adad5902f845e680475f1f2a4b61c8f",
+            "path": "mods/idle_boost-forge-1.2.0+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/idle_boost-forge-1.2.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ImmersiveUI-FORGE-0.3.0:1.0",
+          "name": "ImmersiveUI-FORGE-0.3.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 401514,
+            "MD5": "e92dc07b69814d6116a160f4ee3f08d5",
+            "path": "mods/ImmersiveUI-FORGE-0.3.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ImmersiveUI-FORGE-0.3.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:immersive_aircraft-1.2.2+1.20.1-forge:1.0",
+          "name": "immersive_aircraft-1.2.2+1.20.1-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2180392,
+            "MD5": "18fa516980439d1b7f4fd1d3a68334f8",
+            "path": "mods/immersive_aircraft-1.2.2+1.20.1-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/immersive_aircraft-1.2.2+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:immersive_armors-1.6.1+1.20.1-forge:1.0",
+          "name": "immersive_armors-1.6.1+1.20.1-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1238900,
+            "MD5": "2a9f7850d37e022216250bbf6a2cbb74",
+            "path": "mods/immersive_armors-1.6.1+1.20.1-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/immersive_armors-1.6.1+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:integrated_api-1.5.3+1.20.1-forge:1.0",
+          "name": "integrated_api-1.5.3+1.20.1-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 689843,
+            "MD5": "aecb1890784e202322b1a863f34f9f30",
+            "path": "mods/integrated_api-1.5.3+1.20.1-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/integrated_api-1.5.3+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:integrated_stronghold-1.1.2+1.20.1-forge:1.0",
+          "name": "integrated_stronghold-1.1.2+1.20.1-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 5254827,
+            "MD5": "4456251fff03872c684506c1e56ec83a",
+            "path": "mods/integrated_stronghold-1.1.2+1.20.1-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/integrated_stronghold-1.1.2+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:inventoryhud.forge.1.20.1-3.4.26:1.0",
+          "name": "inventoryhud.forge.1.20.1-3.4.26.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 238088,
+            "MD5": "e1d1380697c2417cfaf6fdd42982a4d0",
+            "path": "mods/inventoryhud.forge.1.20.1-3.4.26.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/inventoryhud.forge.1.20.1-3.4.26.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ironfurnaces-1.20.1-4.1.6:1.0",
+          "name": "ironfurnaces-1.20.1-4.1.6.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 609038,
+            "MD5": "db76ec4beef580f5d7b75065ec2adf9d",
+            "path": "mods/ironfurnaces-1.20.1-4.1.6.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ironfurnaces-1.20.1-4.1.6.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:irons_spellbooks-1.20.1-3.4.0.9:1.0",
+          "name": "irons_spellbooks-1.20.1-3.4.0.9.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 8838604,
+            "MD5": "ffc9267a2ef52074ae1489b5b0ad06c5",
+            "path": "mods/irons_spellbooks-1.20.1-3.4.0.9.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/irons_spellbooks-1.20.1-3.4.0.9.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Jade-1.20.1-Forge-11.13.1:1.0",
+          "name": "Jade-1.20.1-Forge-11.13.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 550551,
+            "MD5": "e36b4d172480009220be7eae12490943",
+            "path": "mods/Jade-1.20.1-Forge-11.13.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Jade-1.20.1-Forge-11.13.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Jadens-Nether-Expansion-2.3.2:1.0",
+          "name": "Jadens-Nether-Expansion-2.3.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 23468366,
+            "MD5": "beab473ddee3f960587319212f9edd5e",
+            "path": "mods/Jadens-Nether-Expansion-2.3.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Jadens-Nether-Expansion-2.3.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:jei-1.20.1-forge-15.20.0.106:1.0",
+          "name": "jei-1.20.1-forge-15.20.0.106.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1379220,
+            "MD5": "245af433575aef3a47ae73492196018f",
+            "path": "mods/jei-1.20.1-forge-15.20.0.106.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/jei-1.20.1-forge-15.20.0.106.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:konkrete_forge_1.8.0_MC_1.20-1.20.1:1.0",
+          "name": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 625185,
+            "MD5": "d69107c593e361e1b7b96733250bd098",
+            "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:kotlinforforge-4.11.0-all:1.0",
+          "name": "kotlinforforge-4.11.0-all.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 7193768,
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56",
+            "path": "mods/kotlinforforge-4.11.0-all.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/kotlinforforge-4.11.0-all.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:kubejs-forge-2001.6.5-build.16:1.0",
+          "name": "kubejs-forge-2001.6.5-build.16.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1654660,
+            "MD5": "f4c6924bef764748d26ee51e4d4c0b00",
+            "path": "mods/kubejs-forge-2001.6.5-build.16.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/kubejs-forge-2001.6.5-build.16.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:leawind_third_person-v2.2.0-mc1.20-1.20.1-forge:1.0",
+          "name": "leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 347536,
+            "MD5": "d508c81bf87eb35a24c20934be75952a",
+            "path": "mods/leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/leawind_third_person-v2.2.0-mc1.20-1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:legendarymonsters-1.9.1 MC 1.20.1:1.0",
+          "name": "legendarymonsters-1.9.1 MC 1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 14614832,
+            "MD5": "b04944ca143fab37c68087868cbcae25",
+            "path": "mods/legendarymonsters-1.9.1 MC 1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/legendarymonsters-1.9.1 MC 1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:lionfishapi-2.4-Fix:1.0",
+          "name": "lionfishapi-2.4-Fix.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 162767,
+            "MD5": "81efd7c198c3c7036c77c79cae764ed4",
+            "path": "mods/lionfishapi-2.4-Fix.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/lionfishapi-2.4-Fix.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:lrarmor-1.20.1-0.1.4.3:1.0",
+          "name": "lrarmor-1.20.1-0.1.4.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 887099,
+            "MD5": "915a633e24714a1dd6dd7f8f81ccd3bd",
+            "path": "mods/lrarmor-1.20.1-0.1.4.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/lrarmor-1.20.1-0.1.4.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Luminous Beasts V1.2.43 - Forge 1.20.1:1.0",
+          "name": "Luminous Beasts V1.2.43 - Forge 1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 21859981,
+            "MD5": "80d4d77431442c92cffd723842d1291d",
+            "path": "mods/Luminous Beasts V1.2.43 - Forge 1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Luminous Beasts V1.2.43 - Forge 1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Luminous V1.4.9 - Forge 1.20.1:1.0",
+          "name": "Luminous V1.4.9 - Forge 1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 21994771,
+            "MD5": "888e638741f81980a8545fea9697e63a",
+            "path": "mods/Luminous V1.4.9 - Forge 1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Luminous V1.4.9 - Forge 1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:L_Enders_Cataclysm-2.64:1.0",
+          "name": "L_Enders_Cataclysm-2.64.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 72161224,
+            "MD5": "753b6f308d1d733bb520f3695dd885b0",
+            "path": "mods/L_Enders_Cataclysm-2.64.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/L_Enders_Cataclysm-2.64.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:MagmaMonsters-1.0.0:1.0",
+          "name": "MagmaMonsters-1.0.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 174211,
+            "MD5": "81f8dcbbd833bba724d9096b0612204f",
+            "path": "mods/MagmaMonsters-1.0.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/MagmaMonsters-1.0.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:mahoutsukai-1.20.1-v1.34.78:1.0",
+          "name": "mahoutsukai-1.20.1-v1.34.78.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 4420869,
+            "MD5": "c0f8d8038217b9b78ec478a478954857",
+            "path": "mods/mahoutsukai-1.20.1-v1.34.78.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/mahoutsukai-1.20.1-v1.34.78.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:management_wanted-1.3.3-forge-1.20.1:1.0",
+          "name": "management_wanted-1.3.3-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 136666097,
+            "MD5": "4f3e46b2bdc59b9a335a125b30adad43",
+            "path": "mods/management_wanted-1.3.3-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/management_wanted-1.3.3-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Mekanism-1.20.1-10.4.15.75:1.0",
+          "name": "Mekanism-1.20.1-10.4.15.75.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 12554112,
+            "MD5": "cdb1519f6b7beef6036fb32c2d3c2c65",
+            "path": "mods/Mekanism-1.20.1-10.4.15.75.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Mekanism-1.20.1-10.4.15.75.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:melody_forge_1.0.3_MC_1.20.1-1.20.4:1.0",
+          "name": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 37178,
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6",
+            "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:mffs-5.1.19-all:1.0",
+          "name": "mffs-5.1.19-all.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3097637,
+            "MD5": "86afff40ffc8d906edb026b7fbb75c72",
+            "path": "mods/mffs-5.1.19-all.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/mffs-5.1.19-all.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:MMStorage-2.1-forge-1.20.1:1.0",
+          "name": "MMStorage-2.1-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1789635,
+            "MD5": "a19fd868a7de3cb1d4d57a2faa446b34",
+            "path": "mods/MMStorage-2.1-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/MMStorage-2.1-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:modernfix-forge-5.21.0+mc1.20.1:1.0",
+          "name": "modernfix-forge-5.21.0+mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 824640,
+            "MD5": "3231eb6ba18ea27d8dd3a66fc4fc952e",
+            "path": "mods/modernfix-forge-5.21.0+mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/modernfix-forge-5.21.0+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:modernlife-1.20.1-1.75:1.0",
+          "name": "modernlife-1.20.1-1.75.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 4291046,
+            "MD5": "7bb539b652c68d1c7f7a4429a6eabf72",
+            "path": "mods/modernlife-1.20.1-1.75.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/modernlife-1.20.1-1.75.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:MonstersGirls_1.3.4.0_1.20.1:1.0",
+          "name": "MonstersGirls_1.3.4.0_1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 5106087,
+            "MD5": "72c49521a038fcbeff576220df7f8813",
+            "path": "mods/MonstersGirls_1.3.4.0_1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/MonstersGirls_1.3.4.0_1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:moonlight-1.20-2.13.82-forge:1.0",
+          "name": "moonlight-1.20-2.13.82-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1252228,
+            "MD5": "d2fb903091892e08cf6cdc115624744c",
+            "path": "mods/moonlight-1.20-2.13.82-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/moonlight-1.20-2.13.82-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:MouseTweaks-forge-mc1.20.1-2.25.1:1.0",
+          "name": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 76237,
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2",
+            "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:mowziesmobs-1.7.1:1.0",
+          "name": "mowziesmobs-1.7.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 35228644,
+            "MD5": "e50b807b47eacbc2d76a2c9e6466b0dd",
+            "path": "mods/mowziesmobs-1.7.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/mowziesmobs-1.7.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:MutantMonsters-v8.0.7-1.20.1-Forge:1.0",
+          "name": "MutantMonsters-v8.0.7-1.20.1-Forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1334303,
+            "MD5": "30d40ea999368084775492b128e0db24",
+            "path": "mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:MyNethersDelight-1.20.1-0.1.7.5:1.0",
+          "name": "MyNethersDelight-1.20.1-0.1.7.5.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 691600,
+            "MD5": "4ef9b132fbbd836f0447e80f0eb043df",
+            "path": "mods/MyNethersDelight-1.20.1-0.1.7.5.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/MyNethersDelight-1.20.1-0.1.7.5.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:nebulus_cherryblossom_tree-2.0-forge-1.20.1:1.0",
+          "name": "nebulus_cherryblossom_tree-2.0-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 137907,
+            "MD5": "d392f44630086c465a0287051784b988",
+            "path": "mods/nebulus_cherryblossom_tree-2.0-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/nebulus_cherryblossom_tree-2.0-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Necronomicon-Forge-1.6.0+1.20.1:1.0",
+          "name": "Necronomicon-Forge-1.6.0+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 33251,
+            "MD5": "a1f1433ea551925436e6b170ac2ff619",
+            "path": "mods/Necronomicon-Forge-1.6.0+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Necronomicon-Forge-1.6.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Obscure-Tooltips-2.2:1.0",
+          "name": "Obscure-Tooltips-2.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 91788,
+            "MD5": "567783d60b4f4ba721ff0e93b6d4a694",
+            "path": "mods/Obscure-Tooltips-2.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Obscure-Tooltips-2.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:obscure_api-15:1.0",
+          "name": "obscure_api-15.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 497136,
+            "MD5": "e9cfade6b7a9964fcadffc6e8d4fedff",
+            "path": "mods/obscure_api-15.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/obscure_api-15.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:oceanicrealms-1.0.4:1.0",
+          "name": "oceanicrealms-1.0.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 544486,
+            "MD5": "1aa71bcb593dcd11d96e0dac7eed7b79",
+            "path": "mods/oceanicrealms-1.0.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/oceanicrealms-1.0.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:oceanic_delight-1.0.3-forge-1.20.1:1.0",
+          "name": "oceanic_delight-1.0.3-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 289149,
+            "MD5": "1dba09659c212c657e2987cfdcb38ac3",
+            "path": "mods/oceanic_delight-1.0.3-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/oceanic_delight-1.0.3-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:OctoLib-FORGE-0.5.0.1+1.20.1:1.0",
+          "name": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 424035,
+            "MD5": "6b2fd012966b13a96ce4f68ae42eab8c",
+            "path": "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:oculus-mc1.20.1-1.8.0:1.0",
+          "name": "oculus-mc1.20.1-1.8.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2851119,
+            "MD5": "1dd891634ac21591b5a692471f112572",
+            "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/oculus-mc1.20.1-1.8.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:offlineskins-1.20.1-v1:1.0",
+          "name": "offlineskins-1.20.1-v1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 93967,
+            "MD5": "501ccc22a90765a4e7665f517c9db545",
+            "path": "mods/offlineskins-1.20.1-v1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/offlineskins-1.20.1-v1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:okzoomer-forge-1.20-3.0.1:1.0",
+          "name": "okzoomer-forge-1.20-3.0.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 120046,
+            "MD5": "cae64657bac994d5d116ef25b5978913",
+            "path": "mods/okzoomer-forge-1.20-3.0.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/okzoomer-forge-1.20-3.0.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:pandalib-forge-mc1.20-0.5.2-SNAPSHOT:1.0",
+          "name": "pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 864398,
+            "MD5": "019a3540059282663ce2ed634dbfd09c",
+            "path": "mods/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:particle_core-0.2.6+1.20.1+forge:1.0",
+          "name": "particle_core-0.2.6+1.20.1+forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 97943,
+            "MD5": "ac9abf66740c4c6fa0436a369fe446a8",
+            "path": "mods/particle_core-0.2.6+1.20.1+forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/particle_core-0.2.6+1.20.1+forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Patchouli-1.20.1-84.1-FORGE:1.0",
+          "name": "Patchouli-1.20.1-84.1-FORGE.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 642711,
+            "MD5": "d5154cacf6859582eebd853bd59f5537",
+            "path": "mods/Patchouli-1.20.1-84.1-FORGE.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Patchouli-1.20.1-84.1-FORGE.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:player-animation-lib-forge-1.0.2-rc1+1.20:1.0",
+          "name": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 181437,
+            "MD5": "46f8554181d4d240075ea4919d01fd01",
+            "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:PlayerRevive_FORGE_v2.0.31_mc1.20.1:1.0",
+          "name": "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 5298162,
+            "MD5": "e07fc42680a0163c99c21cfa9afb9816",
+            "path": "mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:pointblank-forge-1.20.1-1.9.6:1.0",
+          "name": "pointblank-forge-1.20.1-1.9.6.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 17401034,
+            "MD5": "35137bad907310234a0198ba11df79a3",
+            "path": "mods/pointblank-forge-1.20.1-1.9.6.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/pointblank-forge-1.20.1-1.9.6.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:polymorph-forge-0.49.9+1.20.1:1.0",
+          "name": "polymorph-forge-0.49.9+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 299533,
+            "MD5": "12ae52561ecfa60d6e5472b37302647f",
+            "path": "mods/polymorph-forge-0.49.9+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/polymorph-forge-0.49.9+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:pomkotsmechs-forge-0.0.1-alpha.4:1.0",
+          "name": "pomkotsmechs-forge-0.0.1-alpha.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 4881062,
+            "MD5": "bc0ddecf971691165c807ba71136ff96",
+            "path": "mods/pomkotsmechs-forge-0.0.1-alpha.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/pomkotsmechs-forge-0.0.1-alpha.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:pomkotsmechsextension-forge-0.0.1-alpha.3:1.0",
+          "name": "pomkotsmechsextension-forge-0.0.1-alpha.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 4029006,
+            "MD5": "3ef7c74978258ab19181c5c708a00aaf",
+            "path": "mods/pomkotsmechsextension-forge-0.0.1-alpha.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/pomkotsmechsextension-forge-0.0.1-alpha.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:projectile_damage-forge-3.2.2+1.20.1:1.0",
+          "name": "projectile_damage-forge-3.2.2+1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 251688,
+            "MD5": "68c529bd75678dfe737895fbf8c3ea51",
+            "path": "mods/projectile_damage-forge-3.2.2+1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/projectile_damage-forge-3.2.2+1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:PuzzlesLib-v8.1.32-1.20.1-Forge:1.0",
+          "name": "PuzzlesLib-v8.1.32-1.20.1-Forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1342204,
+            "MD5": "3ca3da58d71c0b14241df38578ffdb22",
+            "path": "mods/PuzzlesLib-v8.1.32-1.20.1-Forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/PuzzlesLib-v8.1.32-1.20.1-Forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Quark-4.0-462:1.0",
+          "name": "Quark-4.0-462.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 14935230,
+            "MD5": "6eef0d0ac52df0c239cb443abc137f3d",
+            "path": "mods/Quark-4.0-462.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Quark-4.0-462.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Rats-1.20.1-8.1.3:1.0",
+          "name": "Rats-1.20.1-8.1.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 8437611,
+            "MD5": "58c8a140f1ec2e7517efd41d85adba7a",
+            "path": "mods/Rats-1.20.1-8.1.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Rats-1.20.1-8.1.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:realmrpg_quests-0.1.1-forge-1.20.1:1.0",
+          "name": "realmrpg_quests-0.1.1-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 981055,
+            "MD5": "97df0788e6e9c9eb0b050f5b03856bd1",
+            "path": "mods/realmrpg_quests-0.1.1-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/realmrpg_quests-0.1.1-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:refurbished_furniture-forge-1.20.1-1.0.12:1.0",
+          "name": "refurbished_furniture-forge-1.20.1-1.0.12.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 6687573,
+            "MD5": "1a80f18a5ab4b11befa2a63dc629cb83",
+            "path": "mods/refurbished_furniture-forge-1.20.1-1.0.12.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/refurbished_furniture-forge-1.20.1-1.0.12.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:relics-1.20.1-0.8.0.9:1.0",
+          "name": "relics-1.20.1-0.8.0.9.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1520280,
+            "MD5": "18be53515d2feaa08da2196ef6c8b321",
+            "path": "mods/relics-1.20.1-0.8.0.9.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/relics-1.20.1-0.8.0.9.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:rhino-forge-2001.2.3-build.10:1.0",
+          "name": "rhino-forge-2001.2.3-build.10.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1798244,
+            "MD5": "59387620b0ef6becbff02c7c1636ad3e",
+            "path": "mods/rhino-forge-2001.2.3-build.10.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/rhino-forge-2001.2.3-build.10.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:rubidium-extra-0.5.4.4+mc1.20.1-build.131:1.0",
+          "name": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 568608,
+            "MD5": "a96fb0a07b75eb07b200e8f9c0dfb9f4",
+            "path": "mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:saturn-mc1.20.1-0.1.3:1.0",
+          "name": "saturn-mc1.20.1-0.1.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 92319,
+            "MD5": "56a9a1cc126425b04acc5f8bd7ed67f1",
+            "path": "mods/saturn-mc1.20.1-0.1.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/saturn-mc1.20.1-0.1.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:ScalingHealth-1.20.1-8.0.2+9:1.0",
+          "name": "ScalingHealth-1.20.1-8.0.2+9.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 535471,
+            "MD5": "fb0644341064beedb623b359af15fcbc",
+            "path": "mods/ScalingHealth-1.20.1-8.0.2+9.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/ScalingHealth-1.20.1-8.0.2+9.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Searchables-forge-1.20.1-1.0.3:1.0",
+          "name": "Searchables-forge-1.20.1-1.0.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 77732,
+            "MD5": "9f5418e9c08c18a375ef42fada4bcef2",
+            "path": "mods/Searchables-forge-1.20.1-1.0.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Searchables-forge-1.20.1-1.0.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Shrink-1.20.1-1.4.5:1.0",
+          "name": "Shrink-1.20.1-1.4.5.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 88318,
+            "MD5": "2ec58155b2a4dc42ae6aeb7e0d482083",
+            "path": "mods/Shrink-1.20.1-1.4.5.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Shrink-1.20.1-1.4.5.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:silent-lib-1.20.1-8.0.0:1.0",
+          "name": "silent-lib-1.20.1-8.0.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 225949,
+            "MD5": "e12dabd49a8f5155284950326909635f",
+            "path": "mods/silent-lib-1.20.1-8.0.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/silent-lib-1.20.1-8.0.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:simplehats-forge-1.20.1-0.3.2:1.0",
+          "name": "simplehats-forge-1.20.1-0.3.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1413531,
+            "MD5": "5617686a811a3c1f6523166b7af7f0a8",
+            "path": "mods/simplehats-forge-1.20.1-0.3.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/simplehats-forge-1.20.1-0.3.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:SimpleRPC-Universal-3.3.3:1.0",
+          "name": "SimpleRPC-Universal-3.3.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 214943,
+            "MD5": "3634abdd8e7be1471d8a6ed9a50386b8",
+            "path": "mods/SimpleRPC-Universal-3.3.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/SimpleRPC-Universal-3.3.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:simply_traps-1.6-forge-1.20.1:1.0",
+          "name": "simply_traps-1.6-forge-1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 151724,
+            "MD5": "146cb0a649419c719f5da44559533311",
+            "path": "mods/simply_traps-1.6-forge-1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/simply_traps-1.6-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:skyarena-1.2.3:1.0",
+          "name": "skyarena-1.2.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 937738,
+            "MD5": "d0ab6ad087b830d07452f4f6ddf1f2eb",
+            "path": "mods/skyarena-1.2.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/skyarena-1.2.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:smallships-forge-1.20.1-2.0.0-b1.4:1.0",
+          "name": "smallships-forge-1.20.1-2.0.0-b1.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1816687,
+            "MD5": "c52bf453f18b87f43cae36acf628eb60",
+            "path": "mods/smallships-forge-1.20.1-2.0.0-b1.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/smallships-forge-1.20.1-2.0.0-b1.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:smoothboot(reloaded)-mc1.20.1-0.0.4:1.0",
+          "name": "smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 41044,
+            "MD5": "c8cd5ae14d99796fd92c95a353e96211",
+            "path": "mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:sophisticatedbackpacks-1.20.1-3.23.13.1229:1.0",
+          "name": "sophisticatedbackpacks-1.20.1-3.23.13.1229.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 898661,
+            "MD5": "316b4995c82dd8e5094dbf8ac91e520e",
+            "path": "mods/sophisticatedbackpacks-1.20.1-3.23.13.1229.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/sophisticatedbackpacks-1.20.1-3.23.13.1229.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:sophisticatedcore-1.20.1-1.2.45.953:1.0",
+          "name": "sophisticatedcore-1.20.1-1.2.45.953.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1202989,
+            "MD5": "b46146047d60c8e770cd21d9bb785c64",
+            "path": "mods/sophisticatedcore-1.20.1-1.2.45.953.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/sophisticatedcore-1.20.1-1.2.45.953.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:soulslike-weaponry-1.2.3-1.20.1-forge:1.0",
+          "name": "soulslike-weaponry-1.2.3-1.20.1-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 18699534,
+            "MD5": "0da58d9f2655346eb95b33e4d4e73a82",
+            "path": "mods/soulslike-weaponry-1.2.3-1.20.1-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/soulslike-weaponry-1.2.3-1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:spark-1.10.53-forge:1.0",
+          "name": "spark-1.10.53-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3114590,
+            "MD5": "95dcd3b5400cc5eb5d0478a744e6ef98",
+            "path": "mods/spark-1.10.53-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/spark-1.10.53-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:SpartanShields-1.20.1-forge-3.1.1:1.0",
+          "name": "SpartanShields-1.20.1-forge-3.1.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 540665,
+            "MD5": "d9bc888c7ef13e141024ae5f793f2829",
+            "path": "mods/SpartanShields-1.20.1-forge-3.1.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/SpartanShields-1.20.1-forge-3.1.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Stargate Journey-1.20.1-0.6.39:1.0",
+          "name": "Stargate Journey-1.20.1-0.6.39.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 5939925,
+            "MD5": "c8ad768e5c246fe3ffb678893e81e578",
+            "path": "mods/Stargate Journey-1.20.1-0.6.39.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Stargate Journey-1.20.1-0.6.39.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:structure_gel-1.20.1-2.16.2:1.0",
+          "name": "structure_gel-1.20.1-2.16.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 966028,
+            "MD5": "a4e07a1d6ff69901f70b014683f04498",
+            "path": "mods/structure_gel-1.20.1-2.16.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/structure_gel-1.20.1-2.16.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:supermartijn642corelib-1.1.18-forge-mc1.20.1:1.0",
+          "name": "supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 515362,
+            "MD5": "6559d43627646f16fbe02de085e98d5c",
+            "path": "mods/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:supplementaries-1.20-3.1.26:1.0",
+          "name": "supplementaries-1.20-3.1.26.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 13597703,
+            "MD5": "982b065dff45751153a3be703b4a227a",
+            "path": "mods/supplementaries-1.20-3.1.26.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/supplementaries-1.20-3.1.26.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:TalkBalloons-Forge-1.20.1-1.1.6:1.0",
+          "name": "TalkBalloons-Forge-1.20.1-1.1.6.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 49845,
+            "MD5": "7dde80c3c670984bbfd73765b8bb276a",
+            "path": "mods/TalkBalloons-Forge-1.20.1-1.1.6.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/TalkBalloons-Forge-1.20.1-1.1.6.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:TATOS 1.0.1_stable:1.0",
+          "name": "TATOS 1.0.1_stable.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 69285841,
+            "MD5": "e00c354d15bcacdf63f23669c980ea85",
+            "path": "mods/TATOS 1.0.1_stable.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/TATOS 1.0.1_stable.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:TerraBlender-forge-1.20.1-3.0.1.10:1.0",
+          "name": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 107532,
+            "MD5": "9d8e305b95ae5a8f7b446d6346324267",
+            "path": "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/TerraBlender-forge-1.20.1-3.0.1.10.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:The_Graveyard_3.1_(FORGE)_for_1.20.1:1.0",
+          "name": "The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 10298153,
+            "MD5": "7a27b8747306bdee0857b50e11a9850e",
+            "path": "mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:The_Undergarden-1.20.1-0.8.14:1.0",
+          "name": "The_Undergarden-1.20.1-0.8.14.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 45084263,
+            "MD5": "a7eed1f6a3dbef9f70a3e1ca21514cb5",
+            "path": "mods/The_Undergarden-1.20.1-0.8.14.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/The_Undergarden-1.20.1-0.8.14.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Tips-Forge-1.20.1-12.1.8:1.0",
+          "name": "Tips-Forge-1.20.1-12.1.8.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 130094,
+            "MD5": "bda7f9db0b3c89405a12d180449c1210",
+            "path": "mods/Tips-Forge-1.20.1-12.1.8.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Tips-Forge-1.20.1-12.1.8.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:tombstone-1.20.1-8.9.4:1.0",
+          "name": "tombstone-1.20.1-8.9.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2021372,
+            "MD5": "358b7583787b3d2c3582a234d6b3983c",
+            "path": "mods/tombstone-1.20.1-8.9.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/tombstone-1.20.1-8.9.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:torchmaster-20.1.9:1.0",
+          "name": "torchmaster-20.1.9.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 119348,
+            "MD5": "5ccfbdd3ad8436df3b99967e746ac2cd",
+            "path": "mods/torchmaster-20.1.9.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/torchmaster-20.1.9.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:TravelersTitles-1.20-Forge-4.0.2:1.0",
+          "name": "TravelersTitles-1.20-Forge-4.0.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 228191,
+            "MD5": "c9052dc79261ec5cd3a243cb031a2164",
+            "path": "mods/TravelersTitles-1.20-Forge-4.0.2.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/TravelersTitles-1.20-Forge-4.0.2.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:treasure2-1.20.1-3.12.0:1.0",
+          "name": "treasure2-1.20.1-3.12.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3747535,
+            "MD5": "5b54be0a3d05cbe2886b185fb9fc3016",
+            "path": "mods/treasure2-1.20.1-3.12.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/treasure2-1.20.1-3.12.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:underground_rooms-1.8:1.0",
+          "name": "underground_rooms-1.8.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 144072,
+            "MD5": "1a2fd77c39a893fc07399833823b419c",
+            "path": "mods/underground_rooms-1.8.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/underground_rooms-1.8.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:unearthed_journey-2.1:1.0",
+          "name": "unearthed_journey-2.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 10708023,
+            "MD5": "b004aeaecb9af0e0ea7cdc2ad1be99ce",
+            "path": "mods/unearthed_journey-2.1.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/unearthed_journey-2.1.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:UniLib-1.0.5+1.20.1-forge:1.0",
+          "name": "UniLib-1.0.5+1.20.1-forge.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1045910,
+            "MD5": "a5a75873d8138aa46decbdd733b3c244",
+            "path": "mods/UniLib-1.0.5+1.20.1-forge.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/UniLib-1.0.5+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Vanishmod-1.20.1-1.1.18:1.0",
+          "name": "Vanishmod-1.20.1-1.1.18.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 69482,
+            "MD5": "86470d61af07469d2d0cdb5607e230a1",
+            "path": "mods/Vanishmod-1.20.1-1.1.18.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Vanishmod-1.20.1-1.1.18.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:voicechat-forge-1.20.1-2.5.30:1.0",
+          "name": "voicechat-forge-1.20.1-2.5.30.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 7750347,
+            "MD5": "76f372cea2c68a63acdb05ec3fbef008",
+            "path": "mods/voicechat-forge-1.20.1-2.5.30.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/voicechat-forge-1.20.1-2.5.30.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Voidscape-1.20.1-1.5.389:1.0",
+          "name": "Voidscape-1.20.1-1.5.389.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1844868,
+            "MD5": "93ca49c3ee47d1e46c3679b049110ba3",
+            "path": "mods/Voidscape-1.20.1-1.5.389.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Voidscape-1.20.1-1.5.389.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:walkietalkie-forge-1.20.1-1.3.0:1.0",
+          "name": "walkietalkie-forge-1.20.1-1.3.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 169451,
+            "MD5": "232d0951cad33c7cd8a009d09accff1c",
+            "path": "mods/walkietalkie-forge-1.20.1-1.3.0.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/walkietalkie-forge-1.20.1-1.3.0.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:waystones-forge-1.20.1-14.1.11:1.0",
+          "name": "waystones-forge-1.20.1-14.1.11.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 487684,
+            "MD5": "6167f2d7c2c3ff42929bd39b50cabd83",
+            "path": "mods/waystones-forge-1.20.1-14.1.11.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/waystones-forge-1.20.1-14.1.11.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:weaponmaster_ydm-forge-1.20.1-4.2.3:1.0",
+          "name": "weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 283977,
+            "MD5": "d8cbfa36266a62b13e087e6ed4fc94d5",
+            "path": "mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:worldedit-mod-7.2.15:1.0",
+          "name": "worldedit-mod-7.2.15.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 5825402,
+            "MD5": "bd0e7cff7896348faab92e43300d0639",
+            "path": "mods/worldedit-mod-7.2.15.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/worldedit-mod-7.2.15.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:XaerosWorldMap_1.39.4_Forge_1.20:1.0",
+          "name": "XaerosWorldMap_1.39.4_Forge_1.20.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 933184,
+            "MD5": "3da6919fb4f0c993772c073d787403e1",
+            "path": "mods/XaerosWorldMap_1.39.4_Forge_1.20.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/XaerosWorldMap_1.39.4_Forge_1.20.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Xaeros_Minimap_25.2.0_Forge_1.20:1.0",
+          "name": "Xaeros_Minimap_25.2.0_Forge_1.20.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1704129,
+            "MD5": "e606d37df7888b3b4806712ec6095a82",
+            "path": "mods/Xaeros_Minimap_25.2.0_Forge_1.20.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Xaeros_Minimap_25.2.0_Forge_1.20.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:YungsApi-1.20-Forge-4.0.6:1.0",
+          "name": "YungsApi-1.20-Forge-4.0.6.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 370524,
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c",
+            "path": "mods/YungsApi-1.20-Forge-4.0.6.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/YungsApi-1.20-Forge-4.0.6.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:YungsBetterDungeons-1.20-Forge-4.0.4:1.0",
+          "name": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 792381,
+            "MD5": "2de2f1be8f528ad139003bb5c73d49f3",
+            "path": "mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:YungsBetterMineshafts-1.20-Forge-4.0.4:1.0",
+          "name": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 492998,
+            "MD5": "fe8d205c98cb02840d46646fb7cf5ab8",
+            "path": "mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:Zeta-1.0-30:1.0",
+          "name": "Zeta-1.0-30.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1006574,
+            "MD5": "9fa915bd7e2c64217223b6a98ab5dc47",
+            "path": "mods/Zeta-1.0-30.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/Zeta-1.0-30.jar"
+          }
+        },
+        {
+          "id": "mod:tecniland:[1.20.1] SecurityCraft v1.9.12:1.0",
+          "name": "[1.20.1] SecurityCraft v1.9.12.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 4553681,
+            "MD5": "c21a5d2bf846039dcce7b05fc21441d5",
+            "path": "mods/[1.20.1] SecurityCraft v1.9.12.jar",
+            "url": "file:///C:/Users/yeval/OneDrive/Escritorio/Escritorio/TECNILAND_LAUNCHER_REAL/launcher_tecniland/HeliosLauncher/HeliosLauncher/localserver/instances/TECNILAND_OG/mods/[1.20.1] SecurityCraft v1.9.12.jar"
+          }
+        }
+      ]
+    }
+  ]
+}

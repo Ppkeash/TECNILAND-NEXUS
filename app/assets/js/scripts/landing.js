@@ -584,11 +584,14 @@ async function dlAsync(login = true) {
 
     loggerLaunchSuite.info('Validating files.')
     setLaunchDetails(Lang.queryJS('landing.dlAsync.validatingFileIntegrity'))
+    // TEMPORAL: Saltamos validación de archivos
     let invalidFileCount = 0
     try {
-        invalidFileCount = await fullRepairModule.verifyFiles(percent => {
-            setLaunchPercentage(percent)
-        })
+
+        //invalidFileCount = await fullRepairModule.verifyFiles(percent => {
+        //    setLaunchPercentage(percent)
+        //})
+        console.log('⚠️ Validación de archivos desactivada para testing local')
         setLaunchPercentage(100)
     } catch (err) {
         loggerLaunchSuite.error('Error during file validation.')

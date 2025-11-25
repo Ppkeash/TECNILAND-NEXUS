@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones_de_relaciones_y_comercio_5160"
+	group: "189089200EC7B98C"
+	id: "06B4B367F22130CF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Firma un libro con otro jugador donde se comprometan a un intercambio, ayuda futura o trato simbólico. Guárdalo en un cofre especial."]
+			id: "61BEA10CBE27232F"
+			rewards: [
+				{
+					count: 10
+					id: "555DE8243B209993"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1B096C3F4EDCECAA"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "dungeons_and_combat:light_smithing_template"
+				id: "3FDF9BF64FBFE241"
+				title: "El Primer Contrato"
+				type: "custom"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: ["Crea una pequeña tienda que puedas mover de lugar cada semana. Debe tener decoración temática, precios visibles y nombre propio."]
+			id: "56BF9817DC89CD14"
+			rewards: [
+				{
+					count: 10
+					id: "59DF98FF2A84DD11"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "59787BFE85AC86B8"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "mffs:infinite_power_card"
+				id: "32CC0366A5F1E8B1"
+				title: "Mercado Ambulante"
+				type: "custom"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: ["Haz un trueque con otro jugador usando objetos inútiles o decorativos, como si fueran tesoros. El valor es simbólico."]
+			id: "25EDD370FE6025E2"
+			rewards: [
+				{
+					count: 10
+					id: "36E18E6E3AE012E4"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1AB44D7BAFA575FD"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "botania:cosmetic_tiny_potato_mask"
+				id: "08BA257305AE591A"
+				title: "Intercambio Curioso"
+				type: "custom"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: ["Deja un cofre con un mensaje extraño y regalos dentro en la puerta de otro jugador. No digas nada. Que sea todo un misterio."]
+			id: "78B5B8822A74822C"
+			rewards: [
+				{
+					count: 11
+					id: "5993691A3A8E2F60"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "5D34527BDEF4536B"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "doggytalents:dog_gift_costume"
+				id: "7BF6A374EDB8A66B"
+				title: "El Cofre Misterioso"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Forma un grupo oculto con otros 2–3 jugadores. Pueden tener un emblema, reglas internas y objetivos secretos."]
+			id: "749D7CB61E15AB05"
+			rewards: [
+				{
+					count: 10
+					id: "0E0DEA8F5EEAFFF0"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2544B7484376B0FE"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "simplehats:hatbag_easter"
+				id: "12F76636EC8DDC9A"
+				title: "Sociedad Secreta"
+				type: "custom"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: ["Organiza un mini evento en un lugar común donde todos los jugadores puedan intercambiar objetos sin combates ni trampas."]
+			id: "36A3E102075701BA"
+			rewards: [
+				{
+					count: 5
+					id: "7B27524427FB466F"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					id: "4EAD8E2265AAEA70"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:name_tag"
+				id: "7790A38E9464A88A"
+				title: "Feria del Trato Justo"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: ["Escribe una carta falsa o verdadera a otro jugador con una propuesta tentadora. Puede ser aliada… o una trampa sutil."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "mffs:handbook"
+				}
+			}
+			id: "4B4BB988629B58B8"
+			rewards: [
+				{
+					count: 5
+					id: "3EC19089265E28AA"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					id: "61A4E53642C22AB8"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A70E30CE9276C2B"
+				title: "Diplomacia o Traición"
+				type: "custom"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: ["Lleva un libro donde anotes cada trato, traición, deuda o promesa que te hagan. Úsalo como “prueba” futura."]
+			icon: "botania:mana_distributor"
+			id: "68F275A2F4547C31"
+			rewards: [
+				{
+					count: 10
+					id: "5A4E1908ED4BB71E"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7373FA073D0451AB"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B5AF97ED31953F7"
+				title: "Archivo de Acuerdos"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Vende un ítem extremadamente raro o inútil por un precio desproporcionado, y convence a alguien de que vale la pena."]
+			id: "1C8012E280029F2B"
+			rewards: [
+				{
+					count: 5
+					id: "063AD1A82A6C0F0F"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					id: "07BD7F18481EC8CB"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "treasure2:copper_coin"
+				id: "6AAC0B93F607638A"
+				title: "El Comerciante Legendario"
+				type: "custom"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+	]
+	title: "Misiones de Relaciones y Comercio (51–60)"
+}

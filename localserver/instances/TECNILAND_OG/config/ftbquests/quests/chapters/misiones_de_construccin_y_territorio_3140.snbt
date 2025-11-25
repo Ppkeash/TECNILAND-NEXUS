@@ -1,0 +1,248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones_de_construccin_y_territorio_3140"
+	group: "189089200EC7B98C"
+	icon: "dungeons_and_combat:igneous_blackstone_brick"
+	id: "61D026759F849682"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Construye una fortaleza que simbolice protección, con murallas, torreones y zona de entrada épica. Debe tener una función real o simbólica."]
+			id: "14FC9000D3BA489B"
+			rewards: [
+				{
+					count: 10
+					id: "1839A9D092F29565"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "257D641424650264"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "botania:cosmetic_lusitanic_shield"
+				id: "0A27AE416088DEE1"
+				title: "Fortaleza de la Esperanza"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			description: ["Encuentra una estructura abandonada y repáralo parcialmente para convertirlo en tu base secundaria o punto de exploración."]
+			id: "7745271B7DA8BCF0"
+			rewards: [
+				{
+					count: 10
+					id: "619B80B39597758D"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3C2C70A2E43F42E5"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "ftbquests:barrier"
+				id: "2C31A58612C17EA0"
+				title: "El Bastión Olvidado"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			description: ["Crea un símbolo visual que represente tu rol o alianza: puede ser un banner, una estatua o una formación de bloques."]
+			id: "130F7EAEA8121550"
+			rewards: [
+				{
+					count: 10
+					id: "1A5BB754E6095AAC"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6056E1C8557543B9"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "simplehats:flagjuly"
+				id: "265F0FB47B8FBB4C"
+				title: "Sello de Tu Dominio"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			description: ["Construye un puente largo que cruce una zona de peligro o un bioma importante. Coloca señales, luces o esculturas a lo largo."]
+			id: "2BA6416A13090A7E"
+			rewards: [
+				{
+					count: 10
+					id: "2090074E5453B06E"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "454E1144710D297F"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "supplementaries:globe"
+				id: "7B46A6CF96D9448C"
+				title: ". El Puente de los Tiempos"
+				type: "custom"
+			}]
+			title: "El Puente de los Tiempos"
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			description: ["Crea una zona de portales decorada y funcional que simbolice el paso entre dimensiones o territorios."]
+			id: "003D1A7509EBA7A0"
+			rewards: [
+				{
+					count: 10
+					id: "3CAAF6FAD21981AF"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7A459EC3D2DBA0D5"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_nether_bricks"
+				id: "6F765660F1F1E299"
+				title: "El Portal de la Alianza"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			description: ["Haz un monumento simbólico a un jugador que haya muerto o desaparecido, o incluso un mob o NPC que representó algo importante."]
+			id: "28EEBE518F9821AB"
+			rewards: [
+				{
+					count: 10
+					id: "147C4C4C69201140"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4346406ED9404944"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "born_in_chaos_v1:tombstone_petasi"
+				id: "7D7AAC4AD027BA0E"
+				title: "Monumento al Caído"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			description: ["Diseña una plaza central, con asientos, fuentes, iluminación y algún espacio para reuniones o eventos."]
+			id: "3DDF7904757F6BE6"
+			rewards: [
+				{
+					count: 10
+					id: "7E6FB4619B794165"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "73791EA06F8B4143"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "modernlife:glass_panel"
+				id: "4ADC921CFE15AEEB"
+				title: "Plaza de los Encuentros"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			description: ["Encuentra un rincón apartado del mapa y conviértelo en un santuario, jardín o templo mudo. Prohibido hablar en él."]
+			id: "26B221F3FAAE1826"
+			rewards: [
+				{
+					count: 10
+					id: "11CB2079BFC4FFEF"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "717C6E80FDD847C5"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "rats:rat_upgrade_ender"
+				id: "0C49D38F17416DA0"
+				title: "Zona del Silencio"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			description: ["Delimita visualmente los límites de tu territorio con muros, pilares, árboles marcados o señales místicas."]
+			id: "69081435007F94C0"
+			rewards: [
+				{
+					count: 10
+					id: "7B322CA9169F4FBC"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "48FDE2F5F2D7E607"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "quark:granite_bricks"
+				id: "68E8087CE293049A"
+				title: "Muralla del Límite"
+				type: "custom"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+	]
+	title: "Misiones de Construcción y Territorio (31–40)"
+}

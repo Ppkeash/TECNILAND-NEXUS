@@ -4,3 +4,7 @@
 /target/
 /logs/
 /dist/
+localserver/instances/TECNILAND_OG/mods/*.jar
+localserver/instances/TECNILAND_OG/config/fancymenu/assets/*.fma
+localserver/instances/TECNILAND_OG/config/discord_chat_mod-common.toml
+localserver/instances/TECNILAND_OG/config/*.toml

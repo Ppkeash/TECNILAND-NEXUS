@@ -1,0 +1,97 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1745172025854
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:486a5112-b931-47e9-8366-90015c401e43-1745168889533] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/tecniland_animation_.fma
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  audio_instance_0 = [source:local]/config/fancymenu/assets/music_tecniland/piedkies-morning-mist_main.ogg
+  audio_instance_weight_0 = 1.0
+  audio_instance_1 = [source:local]/config/fancymenu/assets/music_tecniland/halo_tecniland.ogg
+  audio_instance_weight_1 = 1.0
+  audio_instance_2 = [source:local]/config/fancymenu/assets/music_tecniland/departure_tecniland_song_4.ogg
+  audio_instance_weight_2 = 1.0
+  audio_instance_3 = [source:local]/config/fancymenu/assets/music_tecniland/last_guard_tecniland.ogg
+  audio_instance_weight_3 = 1.0
+  audio_instance_4 = [source:local]/config/fancymenu/assets/music_tecniland/tecniland_song_1_robot.ogg
+  audio_instance_weight_4 = 1.0
+  audio_instance_5 = [source:local]/config/fancymenu/assets/music_tecniland/tecniland_song_2_voice_heaven.ogg
+  audio_instance_weight_5 = 1.0
+  audio_instance_6 = [source:local]/config/fancymenu/assets/music_tecniland/tormentas_tecniland.ogg
+  audio_instance_weight_6 = 1.0
+  audio_instance_7 = [source:local]/config/fancymenu/assets/music_tecniland/tundra_tecniland_song_3.ogg
+  audio_instance_weight_7 = 1.0
+  play_mode = shuffle
+  looping = true
+  volume = 0.7
+  sound_source = music
+  element_type = audio_v2
+  instance_identifier = ea44e48f-7206-4843-b3f0-557b8bc5c499-1745103285345
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = top-left
+  x = 80
+  y = 50
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5a07cbee-678d-45ce-a993-3fbe6a5291a7-1745103285345
+  [loading_requirement_container_meta:5a07cbee-678d-45ce-a993-3fbe6a5291a7-1745103285345] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #5CA6EFFF
+  layer_hidden_in_editor = false
+}
+

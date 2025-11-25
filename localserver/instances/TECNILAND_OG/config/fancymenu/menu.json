@@ -1,0 +1,130 @@
+{
+    "elements": [
+        {
+            "type": "image",
+            "image": "fancymenu:assets/background.png",
+            "x": "0",
+            "y": "0",
+            "width": "FULL",
+            "height": "FULL",
+            "animations": [
+                {
+                    "type": "fade",
+                    "start": 0,
+                    "duration": 40
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "image": "fancymenu:assets/logo.png",
+            "x": "CENTER",
+            "y": "10",
+            "width": "256",
+            "height": "64",
+            "animations": [
+                {
+                    "type": "fade",
+                    "start": 20,
+                    "duration": 30
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "text": "JUGAR",
+            "x": "CENTER",
+            "y": "90",
+            "width": "150",
+            "height": "20",
+            "action": "minecraft:singleplayer",
+            "animations": [
+                {
+                    "type": "slide_from_right",
+                    "start": 40,
+                    "duration": 20
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "text": "OPCIONES",
+            "x": "CENTER",
+            "y": "115",
+            "width": "150",
+            "height": "20",
+            "action": "minecraft:options",
+            "animations": [
+                {
+                    "type": "slide_from_right",
+                    "start": 45,
+                    "duration": 20
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "text": "CR\u00c9DITOS",
+            "x": "CENTER",
+            "y": "140",
+            "width": "150",
+            "height": "20",
+            "action": "minecraft:credits",
+            "animations": [
+                {
+                    "type": "slide_from_right",
+                    "start": 50,
+                    "duration": 20
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "text": "SALIR",
+            "x": "CENTER",
+            "y": "165",
+            "width": "150",
+            "height": "20",
+            "action": "minecraft:quit",
+            "animations": [
+                {
+                    "type": "slide_from_right",
+                    "start": 55,
+                    "duration": 20
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "text": "DISCORD",
+            "x": "CENTER",
+            "y": "190",
+            "width": "150",
+            "height": "20",
+            "action": "open_url:https://discord.gg/tecniland",
+            "animations": [
+                {
+                    "type": "slide_from_right",
+                    "start": 60,
+                    "duration": 20
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "text": "LORE",
+            "x": "CENTER",
+            "y": "215",
+            "width": "150",
+            "height": "20",
+            "action": "open_url:https://link-a-tu-lore.com",
+            "animations": [
+                {
+                    "type": "slide_from_right",
+                    "start": 65,
+                    "duration": 20
+                }
+            ]
+        }
+    ]
+}

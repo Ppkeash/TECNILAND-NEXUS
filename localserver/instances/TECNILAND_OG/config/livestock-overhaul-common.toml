@@ -1,0 +1,77 @@
+
+[Spawning]
+	#Should horses be replaced by O-Horses?
+	"Replace Horses" = true
+	#Should mules be replaced by O-Mules?
+	"Replace Mules" = true
+	#Should donkeys be replaced by O-Donkeys?
+	"Replace Donkeys" = true
+	#Should cows be replaced by O-Cows?
+	"Replace Cows" = true
+	#Should chickens be replaced by O-Chickens?
+	"Replace Chickens" = true
+	#Should sheep be replaced by O-Sheep?
+	"Replace Sheep" = true
+	#Should pigs be replaced by O-Pigs?
+	"Replace Pigs" = true
+	#Should llamas be replaced by O-Llamas?
+	"Replace Llamas" = true
+	#Should rabbits be replaced by O-Rabbits?
+	"Replace Rabbits" = true
+	#Should  be replaced by O-Salmon?
+	"Replace Salmon" = true
+	#Should cod be replaced by O-Cod?
+	"Replace Cod" = true
+	#Should bees be replaced by O-Bees?
+	"Replace Bees" = true
+	#Should camels be replaced by O-Camels?
+	"Replace Camels" = true
+	#Should goats be replaced by O-Goats?
+	"Replace Goats" = true
+	#Should frogs be replaced by O-Frogs?
+	"Replace Frogs" = true
+	#Should Grubs spawn?
+	"Spawn Grubs" = true
+	#Should Mooblooms have a chance to spawn alongside O-Cows?
+	"Spawn Mooblooms" = true
+	#Should Caribou spawn?
+	"Spawn Caribou" = true
+	#Should undead horses be replaced by O-Undead Horses?
+	"Replace Undead Horses" = true
+
+[Miscellaneous]
+	#Should an animal's gender affect the ability to get bi-products from it?
+	"Genders Affect Bi-Products" = true
+	#Should an animal's gender affect how it breeds?
+	"Genders Affect Breeding" = true
+	#Should animals, like cows, herd together?
+	"Animals Herd Together" = true
+	#Maximum amount of O-Cows that can herd together. Default is 8.
+	"Cow Herd Maximum" = 8
+	#Maximum amount of O-Horses that can herd together. Default is 3.
+	"Horse Herd Maximum" = 3
+	#Maximum amount of O-Sheep that can herd together. Default is 8.
+	"Sheep Herd Maximum" = 8
+	#Maximum amount of O-Llamas that can herd together. Default is 3.
+	"Llama Herd Maximum" = 3
+	#Should O-Animals use vanilla loot instead of the loot included in the mod?
+	"Use Vanilla Animal Loot" = false
+	#Should O-Horses be able to spawn with any breed naturally? (They spawn only as wild Mustangs by default)
+	"Naturally Spawning O-Horse Breeds" = false
+	#Minimum amount of time, in ticks, that an O-Chicken can lay an unfertilized egg. Default is 12000 ticks, or 10 minutes. Vanilla is 6000 ticks, or 5 minutes.
+	"Chicken Egg Lay Cooldown" = 12000
+	#Amount of time, in ticks, that you must wait to milk an O-Cow, O-Sheep, O-Llama, O-Mooshroom, or Moobloom. Default is 12000 ticks, or 10 minutes
+	"Milking Cooldown" = 12000
+	#Amount of Fertilized Eggs a hen should lay after mating. Default is 3.
+	"Chicken Egg Lay Amount" = 3
+	#Base time an O-Horse can run for at full speed, in seconds. Default is 45s.
+	"Base Horse Sprint Time" = 45
+	#NON FUNCTIONAL
+	"NON FUNCTIONAL" = 3
+	#Should O-Mounts "ground tie", or stop moving around, when saddled & dismounted?
+	"Ground Tie When Dismounted" = true
+
+[Uninstalling]
+	#Should all O-Animals be converted back into a vanilla counterpart? WARNING: This should be used *sparingly*, and only when needed/ if this mod is about to be removed.
+	"Failsafe O-Animal -> Vanilla Animal Converter" = false
+

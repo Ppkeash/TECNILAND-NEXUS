@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones_de_agricultura_y_alquimia_4150"
+	group: "189089200EC7B98C"
+	id: "6149A8C6B9F61310"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Crea un jardín o huerto con cultivos de al menos 5 tipos diferentes (incluyendo mods). Debe estar decorado y cuidado estéticamente."]
+			id: "32E45889567B92BD"
+			rewards: [
+				{
+					count: 10
+					id: "384E4333969A2579"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "491B012DA719FCF6"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "farmersdelight:wild_tomatoes"
+				id: "4260715B23654ED3"
+				title: "Jardín del Equilibrio"
+				type: "custom"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: ["Construye un invernadero mágico donde se mezclen naturaleza y cristales. Ideal para cultivos raros o experimentos botánicos."]
+			id: "15F9136B3A5AB671"
+			rewards: [
+				{
+					count: 10
+					id: "523DCD2D9026DED5"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "684690717BF9E00E"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:torchflower"
+				id: "4FCDCD24CA6B1017"
+				title: "El Invernadero Encantado"
+				type: "custom"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			description: ["Prepara una colección de 10 pociones diferentes, nombradas y almacenadas en una zona decorada tipo laboratorio o botica."]
+			id: "6AB4BE65BF0BBADF"
+			rewards: [
+				{
+					count: 10
+					id: "13799B1913514253"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "419A6EB5D158BEDD"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "mekanism:canteen"
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									Amount: 64000
+									FluidName: "mekanism:nutritional_paste"
+								}
+							}]
+						}
+					}
+				}
+				id: "47BC7F321E259C22"
+				title: "Maestro de Pociones"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			description: ["Siembra cultivos en al menos 3 biomas distintos y lleva un registro simbólico de su crecimiento en libros o carteles."]
+			id: "2F1EA5117C61CE50"
+			rewards: [
+				{
+					count: 10
+					id: "1871EAF11CD4D2A1"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "77F560BB49F74257"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "botania:orange_mystical_flower"
+				id: "077C3A4A4F2ECCC1"
+				title: "Cultivos del Tiempo"
+				type: "custom"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			description: ["Crea una poción personalizada (real o decorativa) con una receta compleja, que solo tú sepas reproducir."]
+			id: "15FCB7947A0F57B9"
+			rewards: [
+				{
+					count: 10
+					id: "304952F5D159BF60"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "021D4F5C7E419B5A"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7124398F3BC0F83C"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Crea al menos 3 recetas de comida artesanal o mística, usando solo ingredientes cultivados o recolectados a mano."]
+			id: "5BCDBB6735327207"
+			rewards: [
+				{
+					count: 10
+					id: "75C6062A05BA0FA2"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2CE2D0ED8BB7EBD0"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "create:clipboard"
+				id: "2AC411B9464E25D1"
+				title: "Recetas de la Abuela Gaia"
+				type: "custom"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			description: ["Planta un árbol en una zona contaminada o destruida y decóralo como si purificara la tierra. Rodea con flores o bloques mágicos."]
+			id: "712A8D8491F1DFA9"
+			rewards: [
+				{
+					count: 10
+					id: "3988D72B962E638D"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2957A88FFF57ADF1"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "simplehats:palmtree"
+				id: "5E69DFA3210D95F7"
+				title: "El Árbol de la Purificación"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Crea un área de cultivo con estética oscura. Usa hongos, tierra de alma, plantas venenosas o mutadas (con mods)."]
+			id: "30252A6A97A17F9D"
+			rewards: [
+				{
+					count: 10
+					id: "048034FEEE62DB4D"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "52C14AA61BCD469A"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "create:cinder_flour"
+				id: "373F9EDD40C3018E"
+				title: "El Huerto Maldito"
+				type: "custom"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: ["Recolecta al menos 15 tipos de ingredientes raros (hierbas, flores, raíces) en todo el mapa. Clasifícalos en cofres visibles."]
+			id: "0BD4612C27C4E382"
+			rewards: [
+				{
+					count: 10
+					id: "144391043A25875F"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "69A1ED00FDABD15F"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_mushroom"
+				id: "3F9C7F85722A2CAA"
+				title: "Reto del Recolector"
+				type: "custom"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			description: ["Construye un laboratorio alquímico oculto detrás de una biblioteca, una cascada o una montaña. Solo los sabios lo pueden encontrar."]
+			id: "67B4CA2945344A2B"
+			rewards: [
+				{
+					count: 10
+					id: "18D3962431043DAB"
+					item: "treasure2:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "675CD39A4F1DEEA8"
+					item: "treasure2:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:bubble_coral"
+				id: "5946F40D74D9B14B"
+				title: "La Sala de Alquimia Secreta"
+				type: "custom"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+	]
+	title: "Misiones de Agricultura y Alquimia (41–50)"
+}
